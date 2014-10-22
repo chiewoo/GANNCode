@@ -1,0 +1,193 @@
+000 (118.000.000) 08/31 11:04:15 Job submitted from host: <192.168.11.102:47912>
+...
+001 (118.000.000) 08/31 11:04:15 Job executing on host: <192.168.11.102:47912>
+...
+005 (118.000.000) 08/31 11:14:39 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (153.000.000) 08/31 15:14:20 Job submitted from host: <192.168.11.102:36049>
+...
+001 (153.000.000) 08/31 15:14:20 Job executing on host: <192.168.11.102:36049>
+...
+005 (153.000.000) 08/31 15:24:49 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (159.000.000) 08/31 15:25:13 Job submitted from host: <192.168.11.102:55688>
+...
+001 (159.000.000) 08/31 15:25:13 Job executing on host: <192.168.11.102:55688>
+...
+004 (159.000.000) 08/31 15:32:52 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+009 (159.000.000) 08/31 15:32:52 Job was aborted by the user.
+	via condor_rm (by user johnoh)
+...
+000 (165.000.000) 08/31 15:33:29 Job submitted from host: <192.168.11.102:55688>
+...
+001 (165.000.000) 08/31 15:33:29 Job executing on host: <192.168.11.102:55688>
+...
+004 (165.000.000) 08/31 15:39:05 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+009 (165.000.000) 08/31 15:39:05 Job was aborted by the user.
+	via condor_rm (by user johnoh)
+...
+000 (198.000.000) 08/31 16:14:27 Job submitted from host: <192.168.11.102:45501>
+...
+001 (198.000.000) 08/31 16:14:30 Job executing on host: <192.168.11.102:45501>
+...
+005 (198.000.000) 08/31 16:15:04 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (204.000.000) 08/31 16:15:17 Job submitted from host: <192.168.11.102:45501>
+...
+001 (204.000.000) 08/31 16:15:17 Job executing on host: <192.168.11.102:45501>
+...
+005 (204.000.000) 08/31 16:15:46 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (210.000.000) 08/31 16:21:25 Job submitted from host: <192.168.11.102:45501>
+...
+001 (210.000.000) 08/31 16:21:25 Job executing on host: <192.168.11.102:45501>
+...
+005 (210.000.000) 08/31 16:21:44 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (216.000.000) 08/31 16:24:11 Job submitted from host: <192.168.11.102:45501>
+...
+001 (216.000.000) 08/31 16:24:11 Job executing on host: <192.168.11.102:45501>
+...
+005 (216.000.000) 08/31 16:24:45 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (222.000.000) 08/31 16:32:46 Job submitted from host: <192.168.11.102:45501>
+...
+001 (222.000.000) 08/31 16:32:46 Job executing on host: <192.168.11.102:45501>
+...
+005 (222.000.000) 08/31 16:33:05 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (228.000.000) 08/31 16:35:30 Job submitted from host: <192.168.11.102:45501>
+...
+001 (228.000.000) 08/31 16:35:30 Job executing on host: <192.168.11.102:45501>
+...
+005 (228.000.000) 08/31 16:36:04 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (234.000.000) 08/31 16:38:48 Job submitted from host: <192.168.11.102:45501>
+...
+001 (234.000.000) 08/31 16:38:48 Job executing on host: <192.168.11.102:45501>
+...
+005 (234.000.000) 08/31 16:39:07 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (240.000.000) 08/31 16:41:05 Job submitted from host: <192.168.11.102:45501>
+...
+001 (240.000.000) 08/31 16:41:05 Job executing on host: <192.168.11.102:45501>
+...
+005 (240.000.000) 08/31 16:41:25 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...
+000 (246.000.000) 08/31 16:43:14 Job submitted from host: <192.168.11.102:45501>
+...
+001 (246.000.000) 08/31 16:43:14 Job executing on host: <192.168.11.102:45501>
+...
+005 (246.000.000) 08/31 16:55:11 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...

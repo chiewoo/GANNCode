@@ -1,0 +1,276 @@
+08/27/12 16:53:06 Setting maximum accepts per cycle 4.
+08/27/12 16:53:06 ******************************************************
+08/27/12 16:53:06 ** condor_scheduniv_exec.8474.0 (CONDOR_DAGMAN) STARTING UP
+08/27/12 16:53:06 ** /usr/bin/condor_dagman
+08/27/12 16:53:06 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+08/27/12 16:53:06 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+08/27/12 16:53:06 ** $CondorVersion: 7.6.3 Aug 17 2011 BuildID: 361356 $
+08/27/12 16:53:06 ** $CondorPlatform: x86_64_rhap_5 $
+08/27/12 16:53:06 ** PID = 4682
+08/27/12 16:53:06 ** Log last touched time unavailable (No such file or directory)
+08/27/12 16:53:06 ******************************************************
+08/27/12 16:53:06 Using config source: /etc/condor/condor_config
+08/27/12 16:53:06 Using local config sources: 
+08/27/12 16:53:06    /etc/condor/condor_config.local
+08/27/12 16:53:06 DaemonCore: command socket at <192.168.11.101:58969>
+08/27/12 16:53:06 DaemonCore: private command socket at <192.168.11.101:58969>
+08/27/12 16:53:06 Setting maximum accepts per cycle 4.
+08/27/12 16:53:06 DAGMAN_VERBOSITY setting: 3
+08/27/12 16:53:06 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+08/27/12 16:53:06 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+08/27/12 16:53:06 DAGMAN_SUBMIT_DELAY setting: 0
+08/27/12 16:53:06 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+08/27/12 16:53:06 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+08/27/12 16:53:06 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+08/27/12 16:53:06 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+08/27/12 16:53:06 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+08/27/12 16:53:06 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+08/27/12 16:53:06 DAGMAN_RETRY_NODE_FIRST setting: False
+08/27/12 16:53:06 DAGMAN_MAX_JOBS_IDLE setting: 0
+08/27/12 16:53:06 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+08/27/12 16:53:06 DAGMAN_MAX_PRE_SCRIPTS setting: 0
+08/27/12 16:53:06 DAGMAN_MAX_POST_SCRIPTS setting: 0
+08/27/12 16:53:06 DAGMAN_ALLOW_LOG_ERROR setting: False
+08/27/12 16:53:06 DAGMAN_MUNGE_NODE_NAMES setting: True
+08/27/12 16:53:06 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+08/27/12 16:53:06 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+08/27/12 16:53:06 DAGMAN_ABORT_DUPLICATES setting: True
+08/27/12 16:53:06 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+08/27/12 16:53:06 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+08/27/12 16:53:06 DAGMAN_AUTO_RESCUE setting: True
+08/27/12 16:53:06 DAGMAN_MAX_RESCUE_NUM setting: 100
+08/27/12 16:53:06 DAGMAN_DEFAULT_NODE_LOG setting: null
+08/27/12 16:53:06 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+08/27/12 16:53:06 ALL_DEBUG setting: 
+08/27/12 16:53:06 DAGMAN_DEBUG setting: 
+08/27/12 16:53:06 argv[0] == "condor_scheduniv_exec.8474.0"
+08/27/12 16:53:06 argv[1] == "-Lockfile"
+08/27/12 16:53:06 argv[2] == "auxmvc_ann_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dag.rescue002.lock"
+08/27/12 16:53:06 argv[3] == "-AutoRescue"
+08/27/12 16:53:06 argv[4] == "1"
+08/27/12 16:53:06 argv[5] == "-DoRescueFrom"
+08/27/12 16:53:06 argv[6] == "0"
+08/27/12 16:53:06 argv[7] == "-Dag"
+08/27/12 16:53:06 argv[8] == "auxmvc_ann_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dag.rescue002"
+08/27/12 16:53:06 argv[9] == "-CsdVersion"
+08/27/12 16:53:06 argv[10] == "$CondorVersion: 7.6.3 Aug 17 2011 BuildID: 361356 $"
+08/27/12 16:53:06 argv[11] == "-Dagman"
+08/27/12 16:53:06 argv[12] == "/usr/bin/condor_dagman"
+08/27/12 16:53:06 Default node log file is: </data2/johnoh/pyevolve/dag/newreun2/auxmvc_ann_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dag.rescue002.nodes.log>
+08/27/12 16:53:06 DAG Lockfile will be written to auxmvc_ann_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dag.rescue002.lock
+08/27/12 16:53:06 DAG Input file is auxmvc_ann_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dag.rescue002
+08/27/12 16:53:06 Parsing 1 dagfiles
+08/27/12 16:53:06 Parsing auxmvc_ann_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dag.rescue002 ...
+08/27/12 16:53:06 Dag contains 61 total jobs
+08/27/12 16:53:06 Sleeping for 12 seconds to ensure ProcessId uniqueness
+08/27/12 16:53:18 Bootstrapping...
+08/27/12 16:53:18 Number of pre-completed nodes: 20
+08/27/12 16:53:18 Registering condor_event_timer...
+08/27/12 16:53:19 Sleeping for one second for log file consistency
+08/27/12 16:53:20 MultiLogFiles: truncating log file /tmp/tmp5cMLwq
+08/27/12 16:53:20 Submitting Condor Node 93b28cd4bc0c483c5851a76ddd32c66e job(s)...
+08/27/12 16:53:20 submitting: condor_submit -a dag_node_name' '=' '93b28cd4bc0c483c5851a76ddd32c66e -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '93b28cd4bc0c483c5851a76ddd32c66e -a macroid' '=' '20 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_10_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_10_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:20 From submit: Submitting job(s).
+08/27/12 16:53:20 From submit: 1 job(s) submitted to cluster 8475.
+08/27/12 16:53:20 	assigned Condor ID (8475.0.0)
+08/27/12 16:53:20 Submitting Condor Node 6860472cdf3aec1258704fcdf1d610dc job(s)...
+08/27/12 16:53:20 submitting: condor_submit -a dag_node_name' '=' '6860472cdf3aec1258704fcdf1d610dc -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '6860472cdf3aec1258704fcdf1d610dc -a macroid' '=' '22 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_11_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_11_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:20 From submit: Submitting job(s).
+08/27/12 16:53:20 From submit: 1 job(s) submitted to cluster 8476.
+08/27/12 16:53:20 	assigned Condor ID (8476.0.0)
+08/27/12 16:53:20 Submitting Condor Node 65cc6031708d5f8e7291a6e6ddfba9aa job(s)...
+08/27/12 16:53:20 submitting: condor_submit -a dag_node_name' '=' '65cc6031708d5f8e7291a6e6ddfba9aa -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '65cc6031708d5f8e7291a6e6ddfba9aa -a macroid' '=' '24 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_12_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_12_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:20 From submit: Submitting job(s).
+08/27/12 16:53:20 From submit: 1 job(s) submitted to cluster 8477.
+08/27/12 16:53:20 	assigned Condor ID (8477.0.0)
+08/27/12 16:53:20 Submitting Condor Node 9c0971d9693e40d6ae21fd8e2fa4b357 job(s)...
+08/27/12 16:53:20 submitting: condor_submit -a dag_node_name' '=' '9c0971d9693e40d6ae21fd8e2fa4b357 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '9c0971d9693e40d6ae21fd8e2fa4b357 -a macroid' '=' '26 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_13_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_13_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:20 From submit: Submitting job(s).
+08/27/12 16:53:20 From submit: 1 job(s) submitted to cluster 8478.
+08/27/12 16:53:20 	assigned Condor ID (8478.0.0)
+08/27/12 16:53:20 Submitting Condor Node 91e3142faaf4108e21ce2e943283d615 job(s)...
+08/27/12 16:53:20 submitting: condor_submit -a dag_node_name' '=' '91e3142faaf4108e21ce2e943283d615 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '91e3142faaf4108e21ce2e943283d615 -a macroid' '=' '28 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_14_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_14_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:20 From submit: Submitting job(s).
+08/27/12 16:53:20 From submit: 1 job(s) submitted to cluster 8479.
+08/27/12 16:53:20 	assigned Condor ID (8479.0.0)
+08/27/12 16:53:20 Just submitted 5 jobs this cycle...
+08/27/12 16:53:20 Currently monitoring 1 Condor log file(s)
+08/27/12 16:53:20 Event: ULOG_SUBMIT for Condor Node 93b28cd4bc0c483c5851a76ddd32c66e (8475.0.0)
+08/27/12 16:53:20 Number of idle job procs: 1
+08/27/12 16:53:20 Event: ULOG_SUBMIT for Condor Node 6860472cdf3aec1258704fcdf1d610dc (8476.0.0)
+08/27/12 16:53:20 Number of idle job procs: 2
+08/27/12 16:53:20 Event: ULOG_SUBMIT for Condor Node 65cc6031708d5f8e7291a6e6ddfba9aa (8477.0.0)
+08/27/12 16:53:20 Number of idle job procs: 3
+08/27/12 16:53:20 Event: ULOG_SUBMIT for Condor Node 9c0971d9693e40d6ae21fd8e2fa4b357 (8478.0.0)
+08/27/12 16:53:20 Number of idle job procs: 4
+08/27/12 16:53:20 Event: ULOG_SUBMIT for Condor Node 91e3142faaf4108e21ce2e943283d615 (8479.0.0)
+08/27/12 16:53:20 Number of idle job procs: 5
+08/27/12 16:53:20 Of 61 nodes total:
+08/27/12 16:53:20  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/27/12 16:53:20   ===     ===      ===     ===     ===        ===      ===
+08/27/12 16:53:20    20       0        5       0      15         21        0
+08/27/12 16:53:20 0 job proc(s) currently held
+08/27/12 16:53:25 Sleeping for one second for log file consistency
+08/27/12 16:53:26 Submitting Condor Node aec5419257c597cfe5431d6dd248c9fc job(s)...
+08/27/12 16:53:26 submitting: condor_submit -a dag_node_name' '=' 'aec5419257c597cfe5431d6dd248c9fc -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' 'aec5419257c597cfe5431d6dd248c9fc -a macroid' '=' '30 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_15_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_15_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:26 From submit: Submitting job(s).
+08/27/12 16:53:26 From submit: 1 job(s) submitted to cluster 8480.
+08/27/12 16:53:26 	assigned Condor ID (8480.0.0)
+08/27/12 16:53:26 Submitting Condor Node 00863806e13d9ff345e0f7f4beba55e1 job(s)...
+08/27/12 16:53:26 submitting: condor_submit -a dag_node_name' '=' '00863806e13d9ff345e0f7f4beba55e1 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '00863806e13d9ff345e0f7f4beba55e1 -a macroid' '=' '32 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_16_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_16_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:26 From submit: Submitting job(s).
+08/27/12 16:53:26 From submit: 1 job(s) submitted to cluster 8481.
+08/27/12 16:53:26 	assigned Condor ID (8481.0.0)
+08/27/12 16:53:26 Submitting Condor Node c7512b2f4d3fdb7e218135644dbd8db6 job(s)...
+08/27/12 16:53:26 submitting: condor_submit -a dag_node_name' '=' 'c7512b2f4d3fdb7e218135644dbd8db6 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' 'c7512b2f4d3fdb7e218135644dbd8db6 -a macroid' '=' '34 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_17_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_17_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:26 From submit: Submitting job(s).
+08/27/12 16:53:26 From submit: 1 job(s) submitted to cluster 8482.
+08/27/12 16:53:26 	assigned Condor ID (8482.0.0)
+08/27/12 16:53:26 Submitting Condor Node ca0d25ff905b05e5dbb7aabe874d577c job(s)...
+08/27/12 16:53:26 submitting: condor_submit -a dag_node_name' '=' 'ca0d25ff905b05e5dbb7aabe874d577c -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' 'ca0d25ff905b05e5dbb7aabe874d577c -a macroid' '=' '36 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_18_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_18_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:26 From submit: Submitting job(s).
+08/27/12 16:53:26 From submit: 1 job(s) submitted to cluster 8483.
+08/27/12 16:53:26 	assigned Condor ID (8483.0.0)
+08/27/12 16:53:26 Submitting Condor Node 56ee11dda076161752804ce019eafab2 job(s)...
+08/27/12 16:53:26 submitting: condor_submit -a dag_node_name' '=' '56ee11dda076161752804ce019eafab2 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '56ee11dda076161752804ce019eafab2 -a macroid' '=' '38 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_19_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_19_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:26 From submit: Submitting job(s).
+08/27/12 16:53:26 From submit: 1 job(s) submitted to cluster 8484.
+08/27/12 16:53:26 	assigned Condor ID (8484.0.0)
+08/27/12 16:53:26 Just submitted 5 jobs this cycle...
+08/27/12 16:53:26 Currently monitoring 1 Condor log file(s)
+08/27/12 16:53:26 Event: ULOG_EXECUTE for Condor Node 9c0971d9693e40d6ae21fd8e2fa4b357 (8478.0.0)
+08/27/12 16:53:26 Number of idle job procs: 4
+08/27/12 16:53:26 Event: ULOG_EXECUTE for Condor Node 93b28cd4bc0c483c5851a76ddd32c66e (8475.0.0)
+08/27/12 16:53:26 Number of idle job procs: 3
+08/27/12 16:53:26 Event: ULOG_EXECUTE for Condor Node 65cc6031708d5f8e7291a6e6ddfba9aa (8477.0.0)
+08/27/12 16:53:26 Number of idle job procs: 2
+08/27/12 16:53:26 Event: ULOG_EXECUTE for Condor Node 6860472cdf3aec1258704fcdf1d610dc (8476.0.0)
+08/27/12 16:53:26 Number of idle job procs: 1
+08/27/12 16:53:26 Event: ULOG_SUBMIT for Condor Node aec5419257c597cfe5431d6dd248c9fc (8480.0.0)
+08/27/12 16:53:26 Number of idle job procs: 2
+08/27/12 16:53:26 Event: ULOG_SUBMIT for Condor Node 00863806e13d9ff345e0f7f4beba55e1 (8481.0.0)
+08/27/12 16:53:26 Number of idle job procs: 3
+08/27/12 16:53:26 Event: ULOG_SUBMIT for Condor Node c7512b2f4d3fdb7e218135644dbd8db6 (8482.0.0)
+08/27/12 16:53:26 Number of idle job procs: 4
+08/27/12 16:53:26 Event: ULOG_SUBMIT for Condor Node ca0d25ff905b05e5dbb7aabe874d577c (8483.0.0)
+08/27/12 16:53:26 Number of idle job procs: 5
+08/27/12 16:53:26 Event: ULOG_SUBMIT for Condor Node 56ee11dda076161752804ce019eafab2 (8484.0.0)
+08/27/12 16:53:26 Number of idle job procs: 6
+08/27/12 16:53:26 Of 61 nodes total:
+08/27/12 16:53:26  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/27/12 16:53:26   ===     ===      ===     ===     ===        ===      ===
+08/27/12 16:53:26    20       0       10       0      10         21        0
+08/27/12 16:53:26 0 job proc(s) currently held
+08/27/12 16:53:31 Sleeping for one second for log file consistency
+08/27/12 16:53:32 Submitting Condor Node 648ef878e3dde378b6fa3bf9457acf40 job(s)...
+08/27/12 16:53:32 submitting: condor_submit -a dag_node_name' '=' '648ef878e3dde378b6fa3bf9457acf40 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '648ef878e3dde378b6fa3bf9457acf40 -a macroid' '=' '40 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_20_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_20_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:32 From submit: Submitting job(s).
+08/27/12 16:53:32 From submit: 1 job(s) submitted to cluster 8485.
+08/27/12 16:53:32 	assigned Condor ID (8485.0.0)
+08/27/12 16:53:32 Submitting Condor Node a1580a88012f4cacc1ee22afc541d826 job(s)...
+08/27/12 16:53:32 submitting: condor_submit -a dag_node_name' '=' 'a1580a88012f4cacc1ee22afc541d826 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' 'a1580a88012f4cacc1ee22afc541d826 -a macroid' '=' '42 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_21_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_21_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:32 From submit: Submitting job(s).
+08/27/12 16:53:32 From submit: 1 job(s) submitted to cluster 8486.
+08/27/12 16:53:32 	assigned Condor ID (8486.0.0)
+08/27/12 16:53:32 Submitting Condor Node 52dba0c9065e128596aafc3bf159ad5f job(s)...
+08/27/12 16:53:32 submitting: condor_submit -a dag_node_name' '=' '52dba0c9065e128596aafc3bf159ad5f -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '52dba0c9065e128596aafc3bf159ad5f -a macroid' '=' '44 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_22_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_22_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:32 From submit: Submitting job(s).
+08/27/12 16:53:32 From submit: 1 job(s) submitted to cluster 8487.
+08/27/12 16:53:32 	assigned Condor ID (8487.0.0)
+08/27/12 16:53:32 Submitting Condor Node 75619fd3825dd0c9f8101b7dd6f33086 job(s)...
+08/27/12 16:53:32 submitting: condor_submit -a dag_node_name' '=' '75619fd3825dd0c9f8101b7dd6f33086 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '75619fd3825dd0c9f8101b7dd6f33086 -a macroid' '=' '46 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_23_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_23_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:32 From submit: Submitting job(s).
+08/27/12 16:53:32 From submit: 1 job(s) submitted to cluster 8488.
+08/27/12 16:53:32 	assigned Condor ID (8488.0.0)
+08/27/12 16:53:32 Submitting Condor Node f395da9807564700c09201cce08a2ee8 job(s)...
+08/27/12 16:53:32 submitting: condor_submit -a dag_node_name' '=' 'f395da9807564700c09201cce08a2ee8 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' 'f395da9807564700c09201cce08a2ee8 -a macroid' '=' '48 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_24_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_24_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:32 From submit: Submitting job(s).
+08/27/12 16:53:32 From submit: 1 job(s) submitted to cluster 8489.
+08/27/12 16:53:32 	assigned Condor ID (8489.0.0)
+08/27/12 16:53:32 Just submitted 5 jobs this cycle...
+08/27/12 16:53:32 Currently monitoring 1 Condor log file(s)
+08/27/12 16:53:32 Event: ULOG_SUBMIT for Condor Node 648ef878e3dde378b6fa3bf9457acf40 (8485.0.0)
+08/27/12 16:53:32 Number of idle job procs: 7
+08/27/12 16:53:32 Event: ULOG_SUBMIT for Condor Node a1580a88012f4cacc1ee22afc541d826 (8486.0.0)
+08/27/12 16:53:32 Number of idle job procs: 8
+08/27/12 16:53:32 Event: ULOG_SUBMIT for Condor Node 52dba0c9065e128596aafc3bf159ad5f (8487.0.0)
+08/27/12 16:53:32 Number of idle job procs: 9
+08/27/12 16:53:32 Event: ULOG_SUBMIT for Condor Node 75619fd3825dd0c9f8101b7dd6f33086 (8488.0.0)
+08/27/12 16:53:32 Number of idle job procs: 10
+08/27/12 16:53:32 Event: ULOG_SUBMIT for Condor Node f395da9807564700c09201cce08a2ee8 (8489.0.0)
+08/27/12 16:53:32 Number of idle job procs: 11
+08/27/12 16:53:32 Of 61 nodes total:
+08/27/12 16:53:32  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/27/12 16:53:32   ===     ===      ===     ===     ===        ===      ===
+08/27/12 16:53:32    20       0       15       0       5         21        0
+08/27/12 16:53:32 0 job proc(s) currently held
+08/27/12 16:53:37 Sleeping for one second for log file consistency
+08/27/12 16:53:38 Submitting Condor Node 33a6f7ada4c78d22010f2273bca13a71 job(s)...
+08/27/12 16:53:38 submitting: condor_submit -a dag_node_name' '=' '33a6f7ada4c78d22010f2273bca13a71 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' '33a6f7ada4c78d22010f2273bca13a71 -a macroid' '=' '50 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_25_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_25_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:38 From submit: Submitting job(s).
+08/27/12 16:53:38 From submit: 1 job(s) submitted to cluster 8490.
+08/27/12 16:53:38 	assigned Condor ID (8490.0.0)
+08/27/12 16:53:38 Submitting Condor Node e3d206bb2f7bdcbc1e402163109ad528 job(s)...
+08/27/12 16:53:38 submitting: condor_submit -a dag_node_name' '=' 'e3d206bb2f7bdcbc1e402163109ad528 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' 'e3d206bb2f7bdcbc1e402163109ad528 -a macroid' '=' '52 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_26_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_26_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:38 From submit: Submitting job(s).
+08/27/12 16:53:38 From submit: 1 job(s) submitted to cluster 8491.
+08/27/12 16:53:38 	assigned Condor ID (8491.0.0)
+08/27/12 16:53:38 Submitting Condor Node a47c4ca6ba853e7994ad979d7426b293 job(s)...
+08/27/12 16:53:38 submitting: condor_submit -a dag_node_name' '=' 'a47c4ca6ba853e7994ad979d7426b293 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' 'a47c4ca6ba853e7994ad979d7426b293 -a macroid' '=' '54 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_27_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_27_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:38 From submit: Submitting job(s).
+08/27/12 16:53:38 From submit: 1 job(s) submitted to cluster 8492.
+08/27/12 16:53:38 	assigned Condor ID (8492.0.0)
+08/27/12 16:53:38 Submitting Condor Node dfd50f9bfe88da5881fed7c712013856 job(s)...
+08/27/12 16:53:38 submitting: condor_submit -a dag_node_name' '=' 'dfd50f9bfe88da5881fed7c712013856 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' 'dfd50f9bfe88da5881fed7c712013856 -a macroid' '=' '56 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_28_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_28_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:38 From submit: Submitting job(s).
+08/27/12 16:53:38 From submit: 1 job(s) submitted to cluster 8493.
+08/27/12 16:53:38 	assigned Condor ID (8493.0.0)
+08/27/12 16:53:38 Submitting Condor Node dd2eda5a30bc89fdc5b50c4fb77f1268 job(s)...
+08/27/12 16:53:38 submitting: condor_submit -a dag_node_name' '=' 'dd2eda5a30bc89fdc5b50c4fb77f1268 -a +DAGManJobId' '=' '8474 -a DAGManJobId' '=' '8474 -a submit_event_notes' '=' 'DAG' 'Node:' 'dd2eda5a30bc89fdc5b50c4fb77f1268 -a macroid' '=' '58 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_29_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_29_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net' '-n' '70,15,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '1.000000' '--generations' '100' '--population' '1000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '50.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub
+08/27/12 16:53:38 From submit: Submitting job(s).
+08/27/12 16:53:38 From submit: 1 job(s) submitted to cluster 8494.
+08/27/12 16:53:38 	assigned Condor ID (8494.0.0)
+08/27/12 16:53:38 Just submitted 5 jobs this cycle...
+08/27/12 16:53:38 Currently monitoring 1 Condor log file(s)
+08/27/12 16:53:38 Event: ULOG_JOB_TERMINATED for Condor Node 93b28cd4bc0c483c5851a76ddd32c66e (8475.0.0)
+08/27/12 16:53:38 Node 93b28cd4bc0c483c5851a76ddd32c66e job proc (8475.0.0) failed with status 1.
+08/27/12 16:53:38 Number of idle job procs: 11
+08/27/12 16:53:38 Event: ULOG_JOB_TERMINATED for Condor Node 65cc6031708d5f8e7291a6e6ddfba9aa (8477.0.0)
+08/27/12 16:53:38 Node 65cc6031708d5f8e7291a6e6ddfba9aa job proc (8477.0.0) failed with status 1.
+08/27/12 16:53:38 Number of idle job procs: 11
+08/27/12 16:53:38 Event: ULOG_IMAGE_SIZE for Condor Node 9c0971d9693e40d6ae21fd8e2fa4b357 (8478.0.0)
+08/27/12 16:53:38 Event: ULOG_JOB_TERMINATED for Condor Node 9c0971d9693e40d6ae21fd8e2fa4b357 (8478.0.0)
+08/27/12 16:53:38 Node 9c0971d9693e40d6ae21fd8e2fa4b357 job proc (8478.0.0) failed with status 1.
+08/27/12 16:53:38 Number of idle job procs: 11
+08/27/12 16:53:38 Event: ULOG_IMAGE_SIZE for Condor Node 6860472cdf3aec1258704fcdf1d610dc (8476.0.0)
+08/27/12 16:53:38 Event: ULOG_JOB_TERMINATED for Condor Node 6860472cdf3aec1258704fcdf1d610dc (8476.0.0)
+08/27/12 16:53:38 Node 6860472cdf3aec1258704fcdf1d610dc job proc (8476.0.0) failed with status 1.
+08/27/12 16:53:38 Number of idle job procs: 11
+08/27/12 16:53:38 Event: ULOG_SUBMIT for Condor Node 33a6f7ada4c78d22010f2273bca13a71 (8490.0.0)
+08/27/12 16:53:38 Number of idle job procs: 12
+08/27/12 16:53:38 Event: ULOG_SUBMIT for Condor Node e3d206bb2f7bdcbc1e402163109ad528 (8491.0.0)
+08/27/12 16:53:38 Number of idle job procs: 13
+08/27/12 16:53:38 Event: ULOG_SUBMIT for Condor Node a47c4ca6ba853e7994ad979d7426b293 (8492.0.0)
+08/27/12 16:53:38 Number of idle job procs: 14
+08/27/12 16:53:38 Event: ULOG_SUBMIT for Condor Node dfd50f9bfe88da5881fed7c712013856 (8493.0.0)
+08/27/12 16:53:38 Number of idle job procs: 15
+08/27/12 16:53:38 Event: ULOG_SUBMIT for Condor Node dd2eda5a30bc89fdc5b50c4fb77f1268 (8494.0.0)
+08/27/12 16:53:38 Number of idle job procs: 16
+08/27/12 16:53:38 Of 61 nodes total:
+08/27/12 16:53:38  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/27/12 16:53:38   ===     ===      ===     ===     ===        ===      ===
+08/27/12 16:53:38    20       0       16       0       0         21        4
+08/27/12 16:53:38 0 job proc(s) currently held
+08/27/12 16:53:43 Received SIGUSR1
+08/27/12 16:53:43 Aborting DAG...
+08/27/12 16:53:43 Writing Rescue DAG to auxmvc_ann_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dag.rescue002.rescue001...
+08/27/12 16:53:43 Removing submitted jobs...
+08/27/12 16:53:43 Removing any/all submitted Condor/Stork jobs...
+08/27/12 16:53:43 Running: condor_rm -const DAGManJobId' '==' '8474
+08/27/12 16:53:43 Note: 0 total job deferrals because of -MaxJobs limit (0)
+08/27/12 16:53:43 Note: 0 total job deferrals because of -MaxIdle limit (0)
+08/27/12 16:53:43 Note: 0 total job deferrals because of node category throttles
+08/27/12 16:53:43 Note: 0 total PRE script deferrals because of -MaxPre limit (0)
+08/27/12 16:53:43 Note: 0 total POST script deferrals because of -MaxPost limit (0)
+08/27/12 16:53:43 Warning: ReadMultipleUserLogs destructor called, but still monitoring 1 log(s)!
+08/27/12 16:53:43 **** condor_scheduniv_exec.8474.0 (condor_DAGMAN) pid 4682 EXITING WITH STATUS 2

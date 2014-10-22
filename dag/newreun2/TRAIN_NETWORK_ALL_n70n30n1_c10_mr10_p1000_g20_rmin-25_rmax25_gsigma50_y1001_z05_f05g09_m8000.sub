@@ -1,0 +1,10 @@
+universe = vanilla
+executable = GAnnTrainFile.py
+arguments = " $(macroarguments) "
+environment = KMP_LIBRARY=serial;MKL_SERIAL=yes
+getenv = True
+log = /tmp/tmpr1uxcb
+error = logs/TRAIN_NETWORK_ALL_n70n30n1_c10_mr10_p1000_g20_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000_n70n30n1_c10_mr10_p1000_g20_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000-$(macroid)-$(process).err
+output = logs/TRAIN_NETWORK_ALL_n70n30n1_c10_mr10_p1000_g20_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000_n70n30n1_c10_mr10_p1000_g20_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000-$(macroid)-$(process).out
+notification = never
+queue 1

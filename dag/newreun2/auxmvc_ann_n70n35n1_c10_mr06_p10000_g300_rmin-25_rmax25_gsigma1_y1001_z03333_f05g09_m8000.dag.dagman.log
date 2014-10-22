@@ -1,0 +1,14 @@
+000 (7268.000.000) 08/18 16:58:51 Job submitted from host: <192.168.11.101:36370>
+...
+001 (7268.000.000) 08/18 16:58:54 Job executing on host: <192.168.11.101:36370>
+...
+004 (7268.000.000) 08/23 11:00:03 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+009 (7268.000.000) 08/23 11:00:03 Job was aborted by the user.
+	via condor_rm (by user johnoh)
+...

@@ -1,0 +1,5 @@
+deadtime: 0.00159066808059 efficiency: 0.5
+deadtime: 0.00159066808059 efficiency: 0.5
+deadtime: 0.0100742311771 efficiency: 0.604347826087
+deadtime: 0.215058324496 efficiency: 0.717391304348
+deadtime: 0.215058324496 efficiency: 0.717391304348

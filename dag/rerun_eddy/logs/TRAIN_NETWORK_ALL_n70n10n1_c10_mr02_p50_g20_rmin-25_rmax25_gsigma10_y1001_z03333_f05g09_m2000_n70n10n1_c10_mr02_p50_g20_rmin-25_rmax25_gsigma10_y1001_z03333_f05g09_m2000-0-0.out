@@ -1,0 +1,102 @@
+Creating network.
+The layer structure is following:
+[70, 10, 1]
+Setting newtork parameters
+Getting training data : ALL_S6_959126400_hveto_channels_signif_dt_set_0_training.pat
+Setting GA training parameters
+Start running GA
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [29.97(52.13)/20.57(1.02)/24.98(24.98)]
+Gen. 1 (5.00%): Max/Min/Avg Fitness(Raw) [53.55(53.24)/0.00(1.02)/41.05(41.05)]
+Gen. 2 (10.00%): Max/Min/Avg Fitness(Raw) [53.97(53.69)/0.00(1.02)/42.63(42.63)]
+Gen. 3 (15.00%): Max/Min/Avg Fitness(Raw) [56.63(56.29)/0.00(1.02)/42.49(42.49)]
+Gen. 4 (20.00%): Max/Min/Avg Fitness(Raw) [44.23(56.51)/23.41(1.02)/36.86(36.86)]
+Gen. 5 (25.00%): Max/Min/Avg Fitness(Raw) [57.04(56.79)/0.00(1.02)/45.90(45.90)]
+Gen. 6 (30.00%): Max/Min/Avg Fitness(Raw) [48.28(58.56)/23.02(1.02)/40.23(40.23)]
+Gen. 7 (35.00%): Max/Min/Avg Fitness(Raw) [60.69(60.38)/0.00(1.02)/46.44(46.44)]
+Gen. 8 (40.00%): Max/Min/Avg Fitness(Raw) [50.96(60.38)/22.81(1.02)/42.47(42.47)]
+Gen. 9 (45.00%): Max/Min/Avg Fitness(Raw) [46.75(61.11)/25.62(1.02)/38.96(38.96)]
+Gen. 10 (50.00%): Max/Min/Avg Fitness(Raw) [62.41(62.09)/0.00(1.02)/47.65(47.65)]
+Gen. 11 (55.00%): Max/Min/Avg Fitness(Raw) [52.60(63.22)/24.47(1.02)/43.83(43.83)]
+Gen. 12 (60.00%): Max/Min/Avg Fitness(Raw) [52.15(63.22)/24.79(1.02)/43.46(43.46)]
+Gen. 13 (65.00%): Max/Min/Avg Fitness(Raw) [50.58(63.51)/25.91(1.02)/42.15(42.15)]
+Gen. 14 (70.00%): Max/Min/Avg Fitness(Raw) [63.93(63.64)/0.00(1.02)/49.91(49.91)]
+Gen. 15 (75.00%): Max/Min/Avg Fitness(Raw) [53.02(64.15)/25.08(1.02)/44.18(44.18)]
+Gen. 16 (80.00%): Max/Min/Avg Fitness(Raw) [52.95(64.41)/25.37(1.02)/44.12(44.12)]
+Gen. 17 (85.00%): Max/Min/Avg Fitness(Raw) [65.92(65.55)/0.00(1.02)/48.28(48.28)]
+Gen. 18 (90.00%): Max/Min/Avg Fitness(Raw) [66.14(65.80)/0.00(1.02)/49.64(49.64)]
+Gen. 19 (95.00%): Max/Min/Avg Fitness(Raw) [53.02(66.23)/26.88(1.02)/44.18(44.18)]
+Gen. 20 (100.00%): Max/Min/Avg Fitness(Raw) [66.59(66.23)/0.00(1.02)/49.39(49.39)]
+Total time elapsed: 35.315 seconds.
+GA MSE : 0.016093
+Best initial connection wetighs are set on Network
+Setting FANN training parameters
+Input layer                          :  70 neurons, 1 bias
+  Hidden layer                       :  10 neurons, 1 bias
+Output layer                         :   1 neurons
+Total neurons and biases             :  83
+Total connections                    : 721
+Connection rate                      :   1.000
+Network type                         :   FANN_NETTYPE_LAYER
+Training algorithm                   :   FANN_TRAIN_RPROP
+Training error function              :   FANN_ERRORFUNC_TANH
+Training stop function               :   FANN_STOPFUNC_MSE
+Bit fail limit                       :   0.350
+Learning rate                        :   0.700
+Learning momentum                    :   0.000
+Quickprop decay                      :  -0.000100
+Quickprop mu                         :   1.750
+RPROP increase factor                :   1.001
+RPROP decrease factor                :   0.333
+RPROP delta min                      :   0.000
+RPROP delta max                      :  50.000
+Cascade output change fraction       :   0.010000
+Cascade candidate change fraction    :   0.010000
+Cascade output stagnation epochs     :  12
+Cascade candidate stagnation epochs  :  12
+Cascade max output epochs            : 150
+Cascade max candidate epochs         : 150
+Cascade weight multiplier            :   0.400
+Cascade candidate limit              :1000.000
+Cascade activation functions[0]      :   FANN_SIGMOID
+Cascade activation functions[1]      :   FANN_SIGMOID_SYMMETRIC
+Cascade activation functions[2]      :   FANN_GAUSSIAN
+Cascade activation functions[3]      :   FANN_GAUSSIAN_SYMMETRIC
+Cascade activation functions[4]      :   FANN_ELLIOT
+Cascade activation functions[5]      :   FANN_ELLIOT_SYMMETRIC
+Cascade activation functions[6]      :   FANN_SIN_SYMMETRIC
+Cascade activation functions[7]      :   FANN_COS_SYMMETRIC
+Cascade activation functions[8]      :   FANN_SIN
+Cascade activation functions[9]      :   FANN_COS
+Cascade activation steepnesses[0]    :   0.250
+Cascade activation steepnesses[1]    :   0.500
+Cascade activation steepnesses[2]    :   0.750
+Cascade activation steepnesses[3]    :   1.000
+Cascade candidate groups             :   2
+Cascade no. of candidates            :  80
+Start training network with 2-algorithm in FANN
+Max epochs     2000. Desired error: 0.0010000000.
+Epochs            1. Current error: 0.0150984470. Bit fail 269.
+Epochs          100. Current error: 0.0155102732. Bit fail 289.
+Epochs          200. Current error: 0.0149244163. Bit fail 273.
+Epochs          300. Current error: 0.0139977830. Bit fail 259.
+Epochs          400. Current error: 0.0137569588. Bit fail 252.
+Epochs          500. Current error: 0.0135667874. Bit fail 250.
+Epochs          600. Current error: 0.0134403836. Bit fail 244.
+Epochs          700. Current error: 0.0132604074. Bit fail 247.
+Epochs          800. Current error: 0.0130151305. Bit fail 242.
+Epochs          900. Current error: 0.0127713941. Bit fail 236.
+Epochs         1000. Current error: 0.0126124974. Bit fail 235.
+Epochs         1100. Current error: 0.0124957291. Bit fail 235.
+Epochs         1200. Current error: 0.0122568663. Bit fail 229.
+Epochs         1300. Current error: 0.0120837251. Bit fail 227.
+Epochs         1400. Current error: 0.0118920021. Bit fail 224.
+Epochs         1500. Current error: 0.0116351377. Bit fail 219.
+Epochs         1600. Current error: 0.0113854064. Bit fail 214.
+Epochs         1700. Current error: 0.0112582305. Bit fail 211.
+Epochs         1800. Current error: 0.0111621190. Bit fail 207.
+Epochs         1900. Current error: 0.0110170832. Bit fail 206.
+Epochs         2000. Current error: 0.0108935619. Bit fail 205.
+Time elpased for FANN training: 118.218127 seconds
+Trained Network by GA+FANN is saved in 
+./ALL_S6_959126400_hveto_channels_signif_dt_set_0_training_n70n10n1_c10_mr02_p50_g20_rmin-25_rmax25_gsigma10_y1001_z03333_f05g09_m2000.net.
+Total Running Time: 153.950734 seconds

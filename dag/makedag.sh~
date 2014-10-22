@@ -1,0 +1,7 @@
+auxmvc_create_gann_dag -n 70,10,1 --connection-rate 1.0 -m 5000 --mutation-rate 0.6 --generations 2 --population 10000 --range-min -50.0 --range-max 50.0 -y 1.4 -f 0.5 -g 0.9 -i auxmvc_ann.ini --link-generated-files /data2/youngmin/Projects/AuxMVC/S6/week_959131741/data/100ms_window_data/959126400_hveto_channels_signif_dt_data_nonzero --link-converted-files /data2/youngmin/Projects/AuxMVC/S6/week_959131741/GANN/100ms_window_data_runs/959126400_hveto_channels_signif_dt_data_nonzero
+
+
+auxmvc_create_gann_dag -n 70,10,1 --connection-rate 1.0 -m 5000 --mutation-rate 0.8 --generations 20 --population 10000 --range-min -50.0 --range-max 50.0 -y 1.4 -f 0.5 -g 0.9 -i auxmvc_ann.ini --link-generated-files /data2/youngmin/Projects/AuxMVC/S6/week_959131741/data/100ms_window_data/959126400_hveto_channels_signif_dt_data_nonzero --link-converted-files /data2/youngmin/Projects/AuxMVC/S6/week_959131741/GANN/100ms_window_data_runs/959126400_hveto_channels_signif_dt_data_nonzero
+
+
+auxmvc_create_gann_dag -n 70,10,1 --connection-rate 1.0 -m 5000 --mutation-rate 0.6 --generations 100 --population 10000 --range-min -100.0 --range-max 100.0 -y 1.4 -f 0.5 -g 0.9 -i auxmvc_ann.ini --link-generated-files /data2/youngmin/Projects/AuxMVC/S6/week_959131741/data/100ms_window_data/959126400_hveto_channels_signif_dt_data_nonzero --link-converted-files /data2/youngmin/Projects/AuxMVC/S6/week_959131741/GANN/100ms_window_data_runs/959126400_hveto_channels_signif_dt_data_nonzero

@@ -1,0 +1,342 @@
+Creating network.
+The layer structure is following:
+[70, 20, 1]
+Setting newtork parameters
+Getting training data : ALL_S6_959126400_hveto_channels_signif_dt_set_7_training.pat
+Setting GA training parameters
+Start running GA
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [24.84(60.22)/18.64(1.02)/20.70(20.70)]
+Gen. 1 (0.50%): Max/Min/Avg Fitness(Raw) [18.90(60.22)/14.71(1.02)/15.75(15.75)]
+Gen. 2 (1.00%): Max/Min/Avg Fitness(Raw) [20.15(60.22)/15.57(1.02)/16.79(16.79)]
+Gen. 3 (1.50%): Max/Min/Avg Fitness(Raw) [18.48(60.22)/14.41(1.02)/15.40(15.40)]
+Gen. 4 (2.00%): Max/Min/Avg Fitness(Raw) [18.98(60.22)/14.76(1.02)/15.82(15.82)]
+Gen. 5 (2.50%): Max/Min/Avg Fitness(Raw) [19.77(60.22)/15.31(1.02)/16.48(16.48)]
+Gen. 6 (3.00%): Max/Min/Avg Fitness(Raw) [19.37(60.22)/15.03(1.02)/16.14(16.14)]
+Gen. 7 (3.50%): Max/Min/Avg Fitness(Raw) [18.75(60.22)/14.60(1.02)/15.62(15.62)]
+Gen. 8 (4.00%): Max/Min/Avg Fitness(Raw) [19.84(60.22)/15.36(1.02)/16.53(16.53)]
+Gen. 9 (4.50%): Max/Min/Avg Fitness(Raw) [19.15(60.22)/14.88(1.02)/15.96(15.96)]
+Gen. 10 (5.00%): Max/Min/Avg Fitness(Raw) [18.62(60.43)/14.51(1.02)/15.51(15.51)]
+Gen. 11 (5.50%): Max/Min/Avg Fitness(Raw) [19.93(60.43)/15.43(1.02)/16.61(16.61)]
+Gen. 12 (6.00%): Max/Min/Avg Fitness(Raw) [20.63(60.43)/15.91(1.02)/17.19(17.19)]
+Gen. 13 (6.50%): Max/Min/Avg Fitness(Raw) [20.64(60.43)/15.91(1.02)/17.20(17.20)]
+Gen. 14 (7.00%): Max/Min/Avg Fitness(Raw) [19.76(60.43)/15.31(1.02)/16.47(16.47)]
+Gen. 15 (7.50%): Max/Min/Avg Fitness(Raw) [20.02(60.43)/15.49(1.02)/16.68(16.68)]
+Gen. 16 (8.00%): Max/Min/Avg Fitness(Raw) [19.65(60.43)/15.23(1.02)/16.37(16.37)]
+Gen. 17 (8.50%): Max/Min/Avg Fitness(Raw) [19.69(60.43)/15.26(1.02)/16.41(16.41)]
+Gen. 18 (9.00%): Max/Min/Avg Fitness(Raw) [20.02(60.43)/15.49(1.02)/16.68(16.68)]
+Gen. 19 (9.50%): Max/Min/Avg Fitness(Raw) [20.17(60.43)/15.59(1.02)/16.81(16.81)]
+Gen. 20 (10.00%): Max/Min/Avg Fitness(Raw) [20.22(63.09)/15.70(1.02)/16.85(16.85)]
+Gen. 21 (10.50%): Max/Min/Avg Fitness(Raw) [23.23(63.09)/17.74(1.02)/19.36(19.36)]
+Gen. 22 (11.00%): Max/Min/Avg Fitness(Raw) [23.64(63.09)/18.01(1.02)/19.70(19.70)]
+Gen. 23 (11.50%): Max/Min/Avg Fitness(Raw) [23.13(63.69)/17.69(1.02)/19.27(19.27)]
+Gen. 24 (12.00%): Max/Min/Avg Fitness(Raw) [22.81(64.87)/17.51(1.02)/19.01(19.01)]
+Gen. 25 (12.50%): Max/Min/Avg Fitness(Raw) [19.49(65.52)/15.24(1.02)/16.24(16.24)]
+Gen. 26 (13.00%): Max/Min/Avg Fitness(Raw) [17.40(65.52)/13.73(1.02)/14.50(14.50)]
+Gen. 27 (13.50%): Max/Min/Avg Fitness(Raw) [17.56(65.52)/13.85(1.02)/14.63(14.63)]
+Gen. 28 (14.00%): Max/Min/Avg Fitness(Raw) [18.09(65.52)/14.23(1.02)/15.07(15.07)]
+Gen. 29 (14.50%): Max/Min/Avg Fitness(Raw) [17.08(65.92)/13.51(1.02)/14.24(14.24)]
+Gen. 30 (15.00%): Max/Min/Avg Fitness(Raw) [18.83(65.92)/14.77(1.02)/15.69(15.69)]
+Gen. 31 (15.50%): Max/Min/Avg Fitness(Raw) [18.13(69.05)/14.32(1.02)/15.11(15.11)]
+Gen. 32 (16.00%): Max/Min/Avg Fitness(Raw) [17.37(69.05)/13.76(1.02)/14.47(14.47)]
+Gen. 33 (16.50%): Max/Min/Avg Fitness(Raw) [17.99(69.05)/14.22(1.02)/14.99(14.99)]
+Gen. 34 (17.00%): Max/Min/Avg Fitness(Raw) [16.31(69.05)/12.98(1.02)/13.59(13.59)]
+Gen. 35 (17.50%): Max/Min/Avg Fitness(Raw) [15.97(69.05)/12.72(1.02)/13.31(13.31)]
+Gen. 36 (18.00%): Max/Min/Avg Fitness(Raw) [17.54(69.05)/13.89(1.02)/14.62(14.62)]
+Gen. 37 (18.50%): Max/Min/Avg Fitness(Raw) [16.31(69.05)/12.97(1.02)/13.59(13.59)]
+Gen. 38 (19.00%): Max/Min/Avg Fitness(Raw) [16.30(69.05)/12.97(1.02)/13.58(13.58)]
+Gen. 39 (19.50%): Max/Min/Avg Fitness(Raw) [17.87(69.05)/14.13(1.02)/14.89(14.89)]
+Gen. 40 (20.00%): Max/Min/Avg Fitness(Raw) [16.92(69.05)/13.43(1.02)/14.10(14.10)]
+Gen. 41 (20.50%): Max/Min/Avg Fitness(Raw) [16.58(69.05)/13.17(1.02)/13.81(13.81)]
+Gen. 42 (21.00%): Max/Min/Avg Fitness(Raw) [16.95(69.05)/13.45(1.02)/14.13(14.13)]
+Gen. 43 (21.50%): Max/Min/Avg Fitness(Raw) [16.23(69.05)/12.92(1.02)/13.53(13.53)]
+Gen. 44 (22.00%): Max/Min/Avg Fitness(Raw) [17.23(69.05)/13.66(1.02)/14.36(14.36)]
+Gen. 45 (22.50%): Max/Min/Avg Fitness(Raw) [16.17(69.05)/12.87(1.02)/13.47(13.47)]
+Gen. 46 (23.00%): Max/Min/Avg Fitness(Raw) [17.53(69.05)/13.88(1.02)/14.61(14.61)]
+Gen. 47 (23.50%): Max/Min/Avg Fitness(Raw) [17.47(69.05)/13.84(1.02)/14.56(14.56)]
+Gen. 48 (24.00%): Max/Min/Avg Fitness(Raw) [16.62(69.05)/13.21(1.02)/13.85(13.85)]
+Gen. 49 (24.50%): Max/Min/Avg Fitness(Raw) [16.73(69.05)/13.29(1.02)/13.94(13.94)]
+Gen. 50 (25.00%): Max/Min/Avg Fitness(Raw) [16.73(69.05)/13.29(1.02)/13.94(13.94)]
+Gen. 51 (25.50%): Max/Min/Avg Fitness(Raw) [17.09(69.05)/13.56(1.02)/14.24(14.24)]
+Gen. 52 (26.00%): Max/Min/Avg Fitness(Raw) [15.74(69.05)/12.55(1.02)/13.11(13.11)]
+Gen. 53 (26.50%): Max/Min/Avg Fitness(Raw) [17.01(69.05)/13.49(1.02)/14.17(14.17)]
+Gen. 54 (27.00%): Max/Min/Avg Fitness(Raw) [17.80(69.05)/14.08(1.02)/14.83(14.83)]
+Gen. 55 (27.50%): Max/Min/Avg Fitness(Raw) [16.90(69.05)/13.41(1.02)/14.08(14.08)]
+Gen. 56 (28.00%): Max/Min/Avg Fitness(Raw) [16.47(69.05)/13.09(1.02)/13.73(13.73)]
+Gen. 57 (28.50%): Max/Min/Avg Fitness(Raw) [16.49(69.05)/13.11(1.02)/13.75(13.75)]
+Gen. 58 (29.00%): Max/Min/Avg Fitness(Raw) [16.61(69.05)/13.20(1.02)/13.84(13.84)]
+Gen. 59 (29.50%): Max/Min/Avg Fitness(Raw) [15.67(69.05)/12.50(1.02)/13.06(13.06)]
+Gen. 60 (30.00%): Max/Min/Avg Fitness(Raw) [16.48(69.05)/13.11(1.02)/13.74(13.74)]
+Gen. 61 (30.50%): Max/Min/Avg Fitness(Raw) [16.87(69.05)/13.39(1.02)/14.06(14.06)]
+Gen. 62 (31.00%): Max/Min/Avg Fitness(Raw) [17.09(69.05)/13.55(1.02)/14.24(14.24)]
+Gen. 63 (31.50%): Max/Min/Avg Fitness(Raw) [17.30(69.05)/13.71(1.02)/14.42(14.42)]
+Gen. 64 (32.00%): Max/Min/Avg Fitness(Raw) [16.43(69.05)/13.06(1.02)/13.69(13.69)]
+Gen. 65 (32.50%): Max/Min/Avg Fitness(Raw) [17.32(69.05)/13.72(1.02)/14.43(14.43)]
+Gen. 66 (33.00%): Max/Min/Avg Fitness(Raw) [17.02(69.05)/13.50(1.02)/14.19(14.19)]
+Gen. 67 (33.50%): Max/Min/Avg Fitness(Raw) [16.11(69.05)/12.83(1.02)/13.43(13.43)]
+Gen. 68 (34.00%): Max/Min/Avg Fitness(Raw) [17.06(69.05)/13.54(1.02)/14.22(14.22)]
+Gen. 69 (34.50%): Max/Min/Avg Fitness(Raw) [16.70(69.05)/13.27(1.02)/13.92(13.92)]
+Gen. 70 (35.00%): Max/Min/Avg Fitness(Raw) [18.08(69.05)/14.28(1.02)/15.06(15.06)]
+Gen. 71 (35.50%): Max/Min/Avg Fitness(Raw) [15.81(69.05)/12.60(1.02)/13.18(13.18)]
+Gen. 72 (36.00%): Max/Min/Avg Fitness(Raw) [16.05(69.05)/12.78(1.02)/13.38(13.38)]
+Gen. 73 (36.50%): Max/Min/Avg Fitness(Raw) [16.80(69.05)/13.34(1.02)/14.00(14.00)]
+Gen. 74 (37.00%): Max/Min/Avg Fitness(Raw) [16.85(69.05)/13.37(1.02)/14.04(14.04)]
+Gen. 75 (37.50%): Max/Min/Avg Fitness(Raw) [17.07(69.05)/13.54(1.02)/14.22(14.22)]
+Gen. 76 (38.00%): Max/Min/Avg Fitness(Raw) [18.12(69.05)/14.31(1.02)/15.10(15.10)]
+Gen. 77 (38.50%): Max/Min/Avg Fitness(Raw) [18.14(69.05)/14.32(1.02)/15.11(15.11)]
+Gen. 78 (39.00%): Max/Min/Avg Fitness(Raw) [17.32(69.05)/13.72(1.02)/14.43(14.43)]
+Gen. 79 (39.50%): Max/Min/Avg Fitness(Raw) [16.27(69.05)/12.95(1.02)/13.56(13.56)]
+Gen. 80 (40.00%): Max/Min/Avg Fitness(Raw) [17.29(69.05)/13.71(1.02)/14.41(14.41)]
+Gen. 81 (40.50%): Max/Min/Avg Fitness(Raw) [16.92(69.05)/13.43(1.02)/14.10(14.10)]
+Gen. 82 (41.00%): Max/Min/Avg Fitness(Raw) [16.03(69.05)/12.77(1.02)/13.36(13.36)]
+Gen. 83 (41.50%): Max/Min/Avg Fitness(Raw) [16.24(69.05)/12.92(1.02)/13.53(13.53)]
+Gen. 84 (42.00%): Max/Min/Avg Fitness(Raw) [17.41(69.05)/13.79(1.02)/14.51(14.51)]
+Gen. 85 (42.50%): Max/Min/Avg Fitness(Raw) [17.32(69.05)/13.72(1.02)/14.43(14.43)]
+Gen. 86 (43.00%): Max/Min/Avg Fitness(Raw) [16.41(69.05)/13.05(1.02)/13.68(13.68)]
+Gen. 87 (43.50%): Max/Min/Avg Fitness(Raw) [16.65(69.05)/13.23(1.02)/13.87(13.87)]
+Gen. 88 (44.00%): Max/Min/Avg Fitness(Raw) [16.36(69.05)/13.01(1.02)/13.63(13.63)]
+Gen. 89 (44.50%): Max/Min/Avg Fitness(Raw) [16.70(69.05)/13.27(1.02)/13.92(13.92)]
+Gen. 90 (45.00%): Max/Min/Avg Fitness(Raw) [16.34(69.05)/13.00(1.02)/13.62(13.62)]
+Gen. 91 (45.50%): Max/Min/Avg Fitness(Raw) [16.73(69.05)/13.28(1.02)/13.94(13.94)]
+Gen. 92 (46.00%): Max/Min/Avg Fitness(Raw) [17.54(69.05)/13.88(1.02)/14.61(14.61)]
+Gen. 93 (46.50%): Max/Min/Avg Fitness(Raw) [16.77(69.05)/13.31(1.02)/13.97(13.97)]
+Gen. 94 (47.00%): Max/Min/Avg Fitness(Raw) [16.87(69.05)/13.39(1.02)/14.06(14.06)]
+Gen. 95 (47.50%): Max/Min/Avg Fitness(Raw) [16.68(69.05)/13.25(1.02)/13.90(13.90)]
+Gen. 96 (48.00%): Max/Min/Avg Fitness(Raw) [16.16(69.05)/12.86(1.02)/13.47(13.47)]
+Gen. 97 (48.50%): Max/Min/Avg Fitness(Raw) [16.83(70.39)/13.38(1.02)/14.03(14.03)]
+Gen. 98 (49.00%): Max/Min/Avg Fitness(Raw) [21.99(70.39)/17.10(1.02)/18.32(18.32)]
+Gen. 99 (49.50%): Max/Min/Avg Fitness(Raw) [22.92(70.39)/17.75(1.02)/19.10(19.10)]
+Gen. 100 (50.00%): Max/Min/Avg Fitness(Raw) [22.24(70.39)/17.28(1.02)/18.54(18.54)]
+Gen. 101 (50.50%): Max/Min/Avg Fitness(Raw) [21.78(70.39)/16.96(1.02)/18.15(18.15)]
+Gen. 102 (51.00%): Max/Min/Avg Fitness(Raw) [22.12(70.39)/17.20(1.02)/18.43(18.43)]
+Gen. 103 (51.50%): Max/Min/Avg Fitness(Raw) [23.46(70.39)/18.13(1.02)/19.55(19.55)]
+Gen. 104 (52.00%): Max/Min/Avg Fitness(Raw) [21.83(70.39)/17.00(1.02)/18.19(18.19)]
+Gen. 105 (52.50%): Max/Min/Avg Fitness(Raw) [22.56(73.35)/17.58(1.02)/18.80(18.80)]
+Gen. 106 (53.00%): Max/Min/Avg Fitness(Raw) [20.51(73.35)/16.11(1.02)/17.09(17.09)]
+Gen. 107 (53.50%): Max/Min/Avg Fitness(Raw) [20.91(73.35)/16.40(1.02)/17.43(17.43)]
+Gen. 108 (54.00%): Max/Min/Avg Fitness(Raw) [22.48(73.35)/17.52(1.02)/18.73(18.73)]
+Gen. 109 (54.50%): Max/Min/Avg Fitness(Raw) [22.22(73.35)/17.33(1.02)/18.51(18.51)]
+Gen. 110 (55.00%): Max/Min/Avg Fitness(Raw) [20.10(73.35)/15.82(1.02)/16.75(16.75)]
+Gen. 111 (55.50%): Max/Min/Avg Fitness(Raw) [21.97(73.35)/17.16(1.02)/18.31(18.31)]
+Gen. 112 (56.00%): Max/Min/Avg Fitness(Raw) [19.85(73.35)/15.64(1.02)/16.54(16.54)]
+Gen. 113 (56.50%): Max/Min/Avg Fitness(Raw) [21.15(73.35)/16.58(1.02)/17.63(17.63)]
+Gen. 114 (57.00%): Max/Min/Avg Fitness(Raw) [21.76(73.35)/17.01(1.02)/18.13(18.13)]
+Gen. 115 (57.50%): Max/Min/Avg Fitness(Raw) [21.61(73.35)/16.90(1.02)/18.01(18.01)]
+Gen. 116 (58.00%): Max/Min/Avg Fitness(Raw) [21.52(73.35)/16.84(1.02)/17.94(17.94)]
+Gen. 117 (58.50%): Max/Min/Avg Fitness(Raw) [21.28(73.35)/16.67(1.02)/17.73(17.73)]
+Gen. 118 (59.00%): Max/Min/Avg Fitness(Raw) [21.10(73.35)/16.54(1.02)/17.58(17.58)]
+Gen. 119 (59.50%): Max/Min/Avg Fitness(Raw) [20.53(73.35)/16.13(1.02)/17.11(17.11)]
+Gen. 120 (60.00%): Max/Min/Avg Fitness(Raw) [20.74(73.35)/16.28(1.02)/17.28(17.28)]
+Gen. 121 (60.50%): Max/Min/Avg Fitness(Raw) [21.34(73.35)/16.71(1.02)/17.78(17.78)]
+Gen. 122 (61.00%): Max/Min/Avg Fitness(Raw) [20.85(73.35)/16.36(1.02)/17.38(17.38)]
+Gen. 123 (61.50%): Max/Min/Avg Fitness(Raw) [21.05(73.35)/16.50(1.02)/17.54(17.54)]
+Gen. 124 (62.00%): Max/Min/Avg Fitness(Raw) [21.02(73.35)/16.48(1.02)/17.52(17.52)]
+Gen. 125 (62.50%): Max/Min/Avg Fitness(Raw) [20.86(73.35)/16.37(1.02)/17.38(17.38)]
+Gen. 126 (63.00%): Max/Min/Avg Fitness(Raw) [21.04(73.35)/16.49(1.02)/17.53(17.53)]
+Gen. 127 (63.50%): Max/Min/Avg Fitness(Raw) [21.23(73.35)/16.63(1.02)/17.69(17.69)]
+Gen. 128 (64.00%): Max/Min/Avg Fitness(Raw) [21.06(73.35)/16.51(1.02)/17.55(17.55)]
+Gen. 129 (64.50%): Max/Min/Avg Fitness(Raw) [21.60(73.35)/16.90(1.02)/18.00(18.00)]
+Gen. 130 (65.00%): Max/Min/Avg Fitness(Raw) [20.80(73.35)/16.33(1.02)/17.34(17.34)]
+Gen. 131 (65.50%): Max/Min/Avg Fitness(Raw) [20.49(73.35)/16.10(1.02)/17.08(17.08)]
+Gen. 132 (66.00%): Max/Min/Avg Fitness(Raw) [20.96(73.35)/16.44(1.02)/17.46(17.46)]
+Gen. 133 (66.50%): Max/Min/Avg Fitness(Raw) [20.79(73.35)/16.32(1.02)/17.33(17.33)]
+Gen. 134 (67.00%): Max/Min/Avg Fitness(Raw) [21.05(73.35)/16.51(1.02)/17.55(17.55)]
+Gen. 135 (67.50%): Max/Min/Avg Fitness(Raw) [20.43(73.35)/16.06(1.02)/17.02(17.02)]
+Gen. 136 (68.00%): Max/Min/Avg Fitness(Raw) [21.35(73.35)/16.72(1.02)/17.79(17.79)]
+Gen. 137 (68.50%): Max/Min/Avg Fitness(Raw) [20.95(73.35)/16.43(1.02)/17.46(17.46)]
+Gen. 138 (69.00%): Max/Min/Avg Fitness(Raw) [20.31(73.35)/15.97(1.02)/16.92(16.92)]
+Gen. 139 (69.50%): Max/Min/Avg Fitness(Raw) [21.52(73.35)/16.84(1.02)/17.93(17.93)]
+Gen. 140 (70.00%): Max/Min/Avg Fitness(Raw) [20.98(73.35)/16.45(1.02)/17.48(17.48)]
+Gen. 141 (70.50%): Max/Min/Avg Fitness(Raw) [21.36(73.35)/16.73(1.02)/17.80(17.80)]
+Gen. 142 (71.00%): Max/Min/Avg Fitness(Raw) [21.07(73.35)/16.52(1.02)/17.56(17.56)]
+Gen. 143 (71.50%): Max/Min/Avg Fitness(Raw) [21.49(73.35)/16.82(1.02)/17.91(17.91)]
+Gen. 144 (72.00%): Max/Min/Avg Fitness(Raw) [20.77(73.35)/16.31(1.02)/17.31(17.31)]
+Gen. 145 (72.50%): Max/Min/Avg Fitness(Raw) [22.30(73.35)/17.39(1.02)/18.58(18.58)]
+Gen. 146 (73.00%): Max/Min/Avg Fitness(Raw) [21.77(73.35)/17.02(1.02)/18.14(18.14)]
+Gen. 147 (73.50%): Max/Min/Avg Fitness(Raw) [20.88(73.35)/16.38(1.02)/17.40(17.40)]
+Gen. 148 (74.00%): Max/Min/Avg Fitness(Raw) [21.46(73.35)/16.79(1.02)/17.88(17.88)]
+Gen. 149 (74.50%): Max/Min/Avg Fitness(Raw) [21.21(73.35)/16.62(1.02)/17.68(17.68)]
+Gen. 150 (75.00%): Max/Min/Avg Fitness(Raw) [21.69(73.35)/16.96(1.02)/18.08(18.08)]
+Gen. 151 (75.50%): Max/Min/Avg Fitness(Raw) [21.37(73.35)/16.73(1.02)/17.81(17.81)]
+Gen. 152 (76.00%): Max/Min/Avg Fitness(Raw) [21.11(73.35)/16.55(1.02)/17.59(17.59)]
+Gen. 153 (76.50%): Max/Min/Avg Fitness(Raw) [21.14(73.35)/16.57(1.02)/17.62(17.62)]
+Gen. 154 (77.00%): Max/Min/Avg Fitness(Raw) [21.65(73.35)/16.93(1.02)/18.04(18.04)]
+Gen. 155 (77.50%): Max/Min/Avg Fitness(Raw) [20.37(73.35)/16.01(1.02)/16.97(16.97)]
+Gen. 156 (78.00%): Max/Min/Avg Fitness(Raw) [20.95(73.35)/16.43(1.02)/17.46(17.46)]
+Gen. 157 (78.50%): Max/Min/Avg Fitness(Raw) [20.67(73.35)/16.23(1.02)/17.22(17.22)]
+Gen. 158 (79.00%): Max/Min/Avg Fitness(Raw) [20.82(73.35)/16.34(1.02)/17.35(17.35)]
+Gen. 159 (79.50%): Max/Min/Avg Fitness(Raw) [19.99(73.35)/15.74(1.02)/16.65(16.65)]
+Gen. 160 (80.00%): Max/Min/Avg Fitness(Raw) [21.31(73.35)/16.69(1.02)/17.76(17.76)]
+Gen. 161 (80.50%): Max/Min/Avg Fitness(Raw) [20.73(73.35)/16.27(1.02)/17.27(17.27)]
+Gen. 162 (81.00%): Max/Min/Avg Fitness(Raw) [21.16(73.35)/16.58(1.02)/17.63(17.63)]
+Gen. 163 (81.50%): Max/Min/Avg Fitness(Raw) [22.27(73.35)/17.37(1.02)/18.55(18.55)]
+Gen. 164 (82.00%): Max/Min/Avg Fitness(Raw) [20.78(73.35)/16.31(1.02)/17.32(17.32)]
+Gen. 165 (82.50%): Max/Min/Avg Fitness(Raw) [21.39(73.35)/16.75(1.02)/17.83(17.83)]
+Gen. 166 (83.00%): Max/Min/Avg Fitness(Raw) [21.49(73.35)/16.82(1.02)/17.91(17.91)]
+Gen. 167 (83.50%): Max/Min/Avg Fitness(Raw) [20.91(73.35)/16.41(1.02)/17.43(17.43)]
+Gen. 168 (84.00%): Max/Min/Avg Fitness(Raw) [21.03(73.35)/16.49(1.02)/17.53(17.53)]
+Gen. 169 (84.50%): Max/Min/Avg Fitness(Raw) [21.15(73.35)/16.57(1.02)/17.63(17.63)]
+Gen. 170 (85.00%): Max/Min/Avg Fitness(Raw) [21.04(73.35)/16.50(1.02)/17.53(17.53)]
+Gen. 171 (85.50%): Max/Min/Avg Fitness(Raw) [20.81(73.35)/16.33(1.02)/17.34(17.34)]
+Gen. 172 (86.00%): Max/Min/Avg Fitness(Raw) [21.82(73.35)/17.05(1.02)/18.18(18.18)]
+Gen. 173 (86.50%): Max/Min/Avg Fitness(Raw) [21.52(73.35)/16.84(1.02)/17.94(17.94)]
+Gen. 174 (87.00%): Max/Min/Avg Fitness(Raw) [21.67(73.35)/16.94(1.02)/18.06(18.06)]
+Gen. 175 (87.50%): Max/Min/Avg Fitness(Raw) [20.89(73.35)/16.39(1.02)/17.41(17.41)]
+Gen. 176 (88.00%): Max/Min/Avg Fitness(Raw) [21.75(73.53)/17.01(1.02)/18.13(18.13)]
+Gen. 177 (88.50%): Max/Min/Avg Fitness(Raw) [16.00(73.53)/12.79(1.02)/13.33(13.33)]
+Gen. 178 (89.00%): Max/Min/Avg Fitness(Raw) [15.56(73.53)/12.46(1.02)/12.97(12.97)]
+Gen. 179 (89.50%): Max/Min/Avg Fitness(Raw) [16.02(73.53)/12.80(1.02)/13.35(13.35)]
+Gen. 180 (90.00%): Max/Min/Avg Fitness(Raw) [15.76(73.53)/12.61(1.02)/13.13(13.13)]
+Gen. 181 (90.50%): Max/Min/Avg Fitness(Raw) [16.77(73.53)/13.37(1.02)/13.98(13.98)]
+Gen. 182 (91.00%): Max/Min/Avg Fitness(Raw) [14.46(73.53)/11.62(1.02)/12.05(12.05)]
+Gen. 183 (91.50%): Max/Min/Avg Fitness(Raw) [16.22(73.53)/12.96(1.02)/13.52(13.52)]
+Gen. 184 (92.00%): Max/Min/Avg Fitness(Raw) [16.51(73.53)/13.17(1.02)/13.76(13.76)]
+Gen. 185 (92.50%): Max/Min/Avg Fitness(Raw) [16.05(73.53)/12.83(1.02)/13.38(13.38)]
+Gen. 186 (93.00%): Max/Min/Avg Fitness(Raw) [14.73(73.53)/11.82(1.02)/12.28(12.28)]
+Gen. 187 (93.50%): Max/Min/Avg Fitness(Raw) [15.49(73.53)/12.41(1.02)/12.91(12.91)]
+Gen. 188 (94.00%): Max/Min/Avg Fitness(Raw) [15.70(73.53)/12.56(1.02)/13.08(13.08)]
+Gen. 189 (94.50%): Max/Min/Avg Fitness(Raw) [16.35(73.53)/13.05(1.02)/13.63(13.63)]
+Gen. 190 (95.00%): Max/Min/Avg Fitness(Raw) [15.96(73.53)/12.76(1.02)/13.30(13.30)]
+Gen. 191 (95.50%): Max/Min/Avg Fitness(Raw) [16.42(73.53)/13.10(1.02)/13.68(13.68)]
+Gen. 192 (96.00%): Max/Min/Avg Fitness(Raw) [15.68(73.53)/12.55(1.02)/13.07(13.07)]
+Gen. 193 (96.50%): Max/Min/Avg Fitness(Raw) [15.26(73.53)/12.22(1.02)/12.71(12.71)]
+Gen. 194 (97.00%): Max/Min/Avg Fitness(Raw) [15.23(73.53)/12.21(1.02)/12.69(12.69)]
+Gen. 195 (97.50%): Max/Min/Avg Fitness(Raw) [15.08(73.53)/12.09(1.02)/12.57(12.57)]
+Gen. 196 (98.00%): Max/Min/Avg Fitness(Raw) [15.90(73.53)/12.71(1.02)/13.25(13.25)]
+Gen. 197 (98.50%): Max/Min/Avg Fitness(Raw) [15.89(73.53)/12.71(1.02)/13.24(13.24)]
+Gen. 198 (99.00%): Max/Min/Avg Fitness(Raw) [16.08(73.53)/12.85(1.02)/13.40(13.40)]
+Gen. 199 (99.50%): Max/Min/Avg Fitness(Raw) [17.08(73.53)/13.60(1.02)/14.24(14.24)]
+Gen. 200 (100.00%): Max/Min/Avg Fitness(Raw) [16.87(73.53)/13.44(1.02)/14.06(14.06)]
+Total time elapsed: 47355.997 seconds.
+GA MSE : 0.976648
+Best initial connection wetighs are set on Network
+Setting FANN training parameters
+Input layer                          :  70 neurons, 1 bias
+  Hidden layer                       :  20 neurons, 1 bias
+Output layer                         :   1 neurons
+Total neurons and biases             :  93
+Total connections                    :1441
+Connection rate                      :   1.000
+Network type                         :   FANN_NETTYPE_LAYER
+Training algorithm                   :   FANN_TRAIN_RPROP
+Training error function              :   FANN_ERRORFUNC_TANH
+Training stop function               :   FANN_STOPFUNC_MSE
+Bit fail limit                       :   0.350
+Learning rate                        :   0.700
+Learning momentum                    :   0.000
+Quickprop decay                      :  -0.000100
+Quickprop mu                         :   1.750
+RPROP increase factor                :   1.001
+RPROP decrease factor                :   0.333
+RPROP delta min                      :   0.000
+RPROP delta max                      :  50.000
+Cascade output change fraction       :   0.010000
+Cascade candidate change fraction    :   0.010000
+Cascade output stagnation epochs     :  12
+Cascade candidate stagnation epochs  :  12
+Cascade max output epochs            : 150
+Cascade max candidate epochs         : 150
+Cascade weight multiplier            :   0.400
+Cascade candidate limit              :1000.000
+Cascade activation functions[0]      :   FANN_SIGMOID
+Cascade activation functions[1]      :   FANN_SIGMOID_SYMMETRIC
+Cascade activation functions[2]      :   FANN_GAUSSIAN
+Cascade activation functions[3]      :   FANN_GAUSSIAN_SYMMETRIC
+Cascade activation functions[4]      :   FANN_ELLIOT
+Cascade activation functions[5]      :   FANN_ELLIOT_SYMMETRIC
+Cascade activation functions[6]      :   FANN_SIN_SYMMETRIC
+Cascade activation functions[7]      :   FANN_COS_SYMMETRIC
+Cascade activation functions[8]      :   FANN_SIN
+Cascade activation functions[9]      :   FANN_COS
+Cascade activation steepnesses[0]    :   0.250
+Cascade activation steepnesses[1]    :   0.500
+Cascade activation steepnesses[2]    :   0.750
+Cascade activation steepnesses[3]    :   1.000
+Cascade candidate groups             :   2
+Cascade no. of candidates            :  80
+Start training network with 2-algorithm in FANN
+Max epochs     8000. Desired error: 0.0010000000.
+Epochs            1. Current error: 0.0136003699. Bit fail 241.
+Epochs          100. Current error: 0.0138707589. Bit fail 239.
+Epochs          200. Current error: 0.0137586296. Bit fail 240.
+Epochs          300. Current error: 0.0136692217. Bit fail 239.
+Epochs          400. Current error: 0.0136880856. Bit fail 236.
+Epochs          500. Current error: 0.0137884095. Bit fail 236.
+Epochs          600. Current error: 0.0133928815. Bit fail 234.
+Epochs          700. Current error: 0.0133228330. Bit fail 232.
+Epochs          800. Current error: 0.0133083742. Bit fail 230.
+Epochs          900. Current error: 0.0130920587. Bit fail 225.
+Epochs         1000. Current error: 0.0130225886. Bit fail 224.
+Epochs         1100. Current error: 0.0129559599. Bit fail 227.
+Epochs         1200. Current error: 0.0128860204. Bit fail 227.
+Epochs         1300. Current error: 0.0128135188. Bit fail 226.
+Epochs         1400. Current error: 0.0126955807. Bit fail 223.
+Epochs         1500. Current error: 0.0125896512. Bit fail 221.
+Epochs         1600. Current error: 0.0125746280. Bit fail 222.
+Epochs         1700. Current error: 0.0124041447. Bit fail 219.
+Epochs         1800. Current error: 0.0123167997. Bit fail 220.
+Epochs         1900. Current error: 0.0121691460. Bit fail 219.
+Epochs         2000. Current error: 0.0120679364. Bit fail 214.
+Epochs         2100. Current error: 0.0120205032. Bit fail 214.
+Epochs         2200. Current error: 0.0118784569. Bit fail 213.
+Epochs         2300. Current error: 0.0117550250. Bit fail 212.
+Epochs         2400. Current error: 0.0116145080. Bit fail 209.
+Epochs         2500. Current error: 0.0115259858. Bit fail 205.
+Epochs         2600. Current error: 0.0115103889. Bit fail 205.
+Epochs         2700. Current error: 0.0114598572. Bit fail 204.
+Epochs         2800. Current error: 0.0113990093. Bit fail 202.
+Epochs         2900. Current error: 0.0114214094. Bit fail 203.
+Epochs         3000. Current error: 0.0114033511. Bit fail 204.
+Epochs         3100. Current error: 0.0114147542. Bit fail 204.
+Epochs         3200. Current error: 0.0112459296. Bit fail 197.
+Epochs         3300. Current error: 0.0112474412. Bit fail 200.
+Epochs         3400. Current error: 0.0113477129. Bit fail 200.
+Epochs         3500. Current error: 0.0113491612. Bit fail 198.
+Epochs         3600. Current error: 0.0114230691. Bit fail 199.
+Epochs         3700. Current error: 0.0114317201. Bit fail 200.
+Epochs         3800. Current error: 0.0114491787. Bit fail 201.
+Epochs         3900. Current error: 0.0114314444. Bit fail 199.
+Epochs         4000. Current error: 0.0113923540. Bit fail 199.
+Epochs         4100. Current error: 0.0113910455. Bit fail 200.
+Epochs         4200. Current error: 0.0114308670. Bit fail 199.
+Epochs         4300. Current error: 0.0114207100. Bit fail 199.
+Epochs         4400. Current error: 0.0114417132. Bit fail 201.
+Epochs         4500. Current error: 0.0115027195. Bit fail 200.
+Epochs         4600. Current error: 0.0115590775. Bit fail 201.
+Epochs         4700. Current error: 0.0116678970. Bit fail 204.
+Epochs         4800. Current error: 0.0117411157. Bit fail 204.
+Epochs         4900. Current error: 0.0118056135. Bit fail 206.
+Epochs         5000. Current error: 0.0118256463. Bit fail 206.
+Epochs         5100. Current error: 0.0119014066. Bit fail 208.
+Epochs         5200. Current error: 0.0118657202. Bit fail 207.
+Epochs         5300. Current error: 0.0118273376. Bit fail 207.
+Epochs         5400. Current error: 0.0118943565. Bit fail 209.
+Epochs         5500. Current error: 0.0119392844. Bit fail 209.
+Epochs         5600. Current error: 0.0119462535. Bit fail 209.
+Epochs         5700. Current error: 0.0119683845. Bit fail 209.
+Epochs         5800. Current error: 0.0119724730. Bit fail 210.
+Epochs         5900. Current error: 0.0119938124. Bit fail 211.
+Epochs         6000. Current error: 0.0119728204. Bit fail 210.
+Epochs         6100. Current error: 0.0119620161. Bit fail 210.
+Epochs         6200. Current error: 0.0118476236. Bit fail 210.
+Epochs         6300. Current error: 0.0119776595. Bit fail 213.
+Epochs         6400. Current error: 0.0118846577. Bit fail 213.
+Epochs         6500. Current error: 0.0118594812. Bit fail 211.
+Epochs         6600. Current error: 0.0118032293. Bit fail 209.
+Epochs         6700. Current error: 0.0118688028. Bit fail 210.
+Epochs         6800. Current error: 0.0118909599. Bit fail 209.
+Epochs         6900. Current error: 0.0118935183. Bit fail 209.
+Epochs         7000. Current error: 0.0118869944. Bit fail 209.
+Epochs         7100. Current error: 0.0119368611. Bit fail 210.
+Epochs         7200. Current error: 0.0118846931. Bit fail 210.
+Epochs         7300. Current error: 0.0118383951. Bit fail 211.
+Epochs         7400. Current error: 0.0118495133. Bit fail 211.
+Epochs         7500. Current error: 0.0118431635. Bit fail 210.
+Epochs         7600. Current error: 0.0118419062. Bit fail 210.
+Epochs         7700. Current error: 0.0118310070. Bit fail 210.
+Epochs         7800. Current error: 0.0117363380. Bit fail 209.
+Epochs         7900. Current error: 0.0116737094. Bit fail 206.
+Epochs         8000. Current error: 0.0116730211. Bit fail 206.
+Time elpased for FANN training: 858.204056 seconds
+Trained Network by GA+FANN is saved in 
+./ALL_S6_959126400_hveto_channels_signif_dt_set_7_training_n70n20n1_c10_mr10_p2000_g200_rmin-25_rmax25_gsigma50_y1001_z03333_f05g09_m8000.net.
+Total Running Time: 48215.950025 seconds

@@ -1,0 +1,10 @@
+universe = vanilla
+executable = FannEvaluation.py
+arguments = " $(macroarguments) "
+environment = KMP_LIBRARY=serial;MKL_SERIAL=yes
+getenv = True
+log = /tmp/tmpklX66z
+error = logs/USE_NETWORK_ALL_n70n10n1_c10_mr02_p50_g20_rmin-25_rmax25_gsigma10_y1001_z03333_f05g09_m5000_n70n10n1_c10_mr02_p50_g20_rmin-25_rmax25_gsigma10_y1001_z03333_f05g09_m5000-$(macroid)-$(process).err
+output = logs/USE_NETWORK_ALL_n70n10n1_c10_mr02_p50_g20_rmin-25_rmax25_gsigma10_y1001_z03333_f05g09_m5000_n70n10n1_c10_mr02_p50_g20_rmin-25_rmax25_gsigma10_y1001_z03333_f05g09_m5000-$(macroid)-$(process).out
+notification = never
+queue 1

@@ -1,0 +1,2100 @@
+08/16/12 15:22:43 Setting maximum accepts per cycle 4.
+08/16/12 15:22:43 ******************************************************
+08/16/12 15:22:43 ** condor_scheduniv_exec.7082.0 (CONDOR_DAGMAN) STARTING UP
+08/16/12 15:22:43 ** /usr/bin/condor_dagman
+08/16/12 15:22:43 ** SubsystemInfo: name=DAGMAN type=DAGMAN(10) class=DAEMON(1)
+08/16/12 15:22:43 ** Configuration: subsystem:DAGMAN local:<NONE> class:DAEMON
+08/16/12 15:22:43 ** $CondorVersion: 7.6.3 Aug 17 2011 BuildID: 361356 $
+08/16/12 15:22:43 ** $CondorPlatform: x86_64_rhap_5 $
+08/16/12 15:22:43 ** PID = 29516
+08/16/12 15:22:43 ** Log last touched time unavailable (No such file or directory)
+08/16/12 15:22:43 ******************************************************
+08/16/12 15:22:43 Using config source: /etc/condor/condor_config
+08/16/12 15:22:43 Using local config sources: 
+08/16/12 15:22:43    /etc/condor/condor_config.local
+08/16/12 15:22:43 DaemonCore: command socket at <192.168.11.101:60137>
+08/16/12 15:22:43 DaemonCore: private command socket at <192.168.11.101:60137>
+08/16/12 15:22:43 Setting maximum accepts per cycle 4.
+08/16/12 15:22:43 DAGMAN_VERBOSITY setting: 3
+08/16/12 15:22:43 DAGMAN_DEBUG_CACHE_SIZE setting: 5242880
+08/16/12 15:22:43 DAGMAN_DEBUG_CACHE_ENABLE setting: False
+08/16/12 15:22:43 DAGMAN_SUBMIT_DELAY setting: 0
+08/16/12 15:22:43 DAGMAN_MAX_SUBMIT_ATTEMPTS setting: 6
+08/16/12 15:22:43 DAGMAN_STARTUP_CYCLE_DETECT setting: False
+08/16/12 15:22:43 DAGMAN_MAX_SUBMITS_PER_INTERVAL setting: 5
+08/16/12 15:22:43 DAGMAN_USER_LOG_SCAN_INTERVAL setting: 5
+08/16/12 15:22:43 allow_events (DAGMAN_IGNORE_DUPLICATE_JOB_EXECUTION, DAGMAN_ALLOW_EVENTS) setting: 114
+08/16/12 15:22:43 DAGMAN_RETRY_SUBMIT_FIRST setting: True
+08/16/12 15:22:43 DAGMAN_RETRY_NODE_FIRST setting: False
+08/16/12 15:22:43 DAGMAN_MAX_JOBS_IDLE setting: 0
+08/16/12 15:22:43 DAGMAN_MAX_JOBS_SUBMITTED setting: 0
+08/16/12 15:22:43 DAGMAN_MAX_PRE_SCRIPTS setting: 0
+08/16/12 15:22:43 DAGMAN_MAX_POST_SCRIPTS setting: 0
+08/16/12 15:22:43 DAGMAN_ALLOW_LOG_ERROR setting: False
+08/16/12 15:22:43 DAGMAN_MUNGE_NODE_NAMES setting: True
+08/16/12 15:22:43 DAGMAN_PROHIBIT_MULTI_JOBS setting: False
+08/16/12 15:22:43 DAGMAN_SUBMIT_DEPTH_FIRST setting: False
+08/16/12 15:22:43 DAGMAN_ABORT_DUPLICATES setting: True
+08/16/12 15:22:43 DAGMAN_ABORT_ON_SCARY_SUBMIT setting: True
+08/16/12 15:22:43 DAGMAN_PENDING_REPORT_INTERVAL setting: 600
+08/16/12 15:22:43 DAGMAN_AUTO_RESCUE setting: True
+08/16/12 15:22:43 DAGMAN_MAX_RESCUE_NUM setting: 100
+08/16/12 15:22:43 DAGMAN_DEFAULT_NODE_LOG setting: null
+08/16/12 15:22:43 DAGMAN_GENERATE_SUBDAG_SUBMITS setting: True
+08/16/12 15:22:43 ALL_DEBUG setting: 
+08/16/12 15:22:43 DAGMAN_DEBUG setting: 
+08/16/12 15:22:43 argv[0] == "condor_scheduniv_exec.7082.0"
+08/16/12 15:22:43 argv[1] == "-Lockfile"
+08/16/12 15:22:43 argv[2] == "auxmvc_ann_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dag.lock"
+08/16/12 15:22:43 argv[3] == "-AutoRescue"
+08/16/12 15:22:43 argv[4] == "1"
+08/16/12 15:22:43 argv[5] == "-DoRescueFrom"
+08/16/12 15:22:43 argv[6] == "0"
+08/16/12 15:22:43 argv[7] == "-Dag"
+08/16/12 15:22:43 argv[8] == "auxmvc_ann_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dag"
+08/16/12 15:22:43 argv[9] == "-CsdVersion"
+08/16/12 15:22:43 argv[10] == "$CondorVersion: 7.6.3 Aug 17 2011 BuildID: 361356 $"
+08/16/12 15:22:43 argv[11] == "-Dagman"
+08/16/12 15:22:43 argv[12] == "/usr/bin/condor_dagman"
+08/16/12 15:22:43 Default node log file is: </data2/johnoh/pyevolve/dag/newreun/auxmvc_ann_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dag.nodes.log>
+08/16/12 15:22:43 DAG Lockfile will be written to auxmvc_ann_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dag.lock
+08/16/12 15:22:43 DAG Input file is auxmvc_ann_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dag
+08/16/12 15:22:43 Parsing 1 dagfiles
+08/16/12 15:22:43 Parsing auxmvc_ann_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dag ...
+08/16/12 15:22:43 Dag contains 21 total jobs
+08/16/12 15:22:43 Sleeping for 12 seconds to ensure ProcessId uniqueness
+08/16/12 15:22:55 Bootstrapping...
+08/16/12 15:22:55 Number of pre-completed nodes: 0
+08/16/12 15:22:55 Registering condor_event_timer...
+08/16/12 15:22:56 Sleeping for one second for log file consistency
+08/16/12 15:22:57 MultiLogFiles: truncating log file /tmp/tmpWUU8Zu
+08/16/12 15:22:57 Submitting Condor Node d3dedfcdf6054f9b8bd48d2762620b8f job(s)...
+08/16/12 15:22:57 submitting: condor_submit -a dag_node_name' '=' 'd3dedfcdf6054f9b8bd48d2762620b8f -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' 'd3dedfcdf6054f9b8bd48d2762620b8f -a macroid' '=' '0 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_0_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_0_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-n' '70,10,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '0.200000' '--generations' '100' '--population' '10000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '1.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/16/12 15:22:57 From submit: Submitting job(s).
+08/16/12 15:22:57 From submit: 1 job(s) submitted to cluster 7083.
+08/16/12 15:22:57 	assigned Condor ID (7083.0.0)
+08/16/12 15:22:57 Submitting Condor Node 111c11ca93cbf239214cda3662267e93 job(s)...
+08/16/12 15:22:57 submitting: condor_submit -a dag_node_name' '=' '111c11ca93cbf239214cda3662267e93 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '111c11ca93cbf239214cda3662267e93 -a macroid' '=' '2 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_1_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_1_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-n' '70,10,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '0.200000' '--generations' '100' '--population' '10000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '1.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/16/12 15:22:57 From submit: Submitting job(s).
+08/16/12 15:22:57 From submit: 1 job(s) submitted to cluster 7084.
+08/16/12 15:22:57 	assigned Condor ID (7084.0.0)
+08/16/12 15:22:57 Submitting Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 job(s)...
+08/16/12 15:22:57 submitting: condor_submit -a dag_node_name' '=' 'b32e91c0acabe4e7a6373ee0f27ff5f5 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' 'b32e91c0acabe4e7a6373ee0f27ff5f5 -a macroid' '=' '4 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_2_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_2_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-n' '70,10,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '0.200000' '--generations' '100' '--population' '10000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '1.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/16/12 15:22:57 From submit: Submitting job(s).
+08/16/12 15:22:57 From submit: 1 job(s) submitted to cluster 7085.
+08/16/12 15:22:57 	assigned Condor ID (7085.0.0)
+08/16/12 15:22:57 Submitting Condor Node 6695a606bcbdc2f21d059bf4b71874cb job(s)...
+08/16/12 15:22:57 submitting: condor_submit -a dag_node_name' '=' '6695a606bcbdc2f21d059bf4b71874cb -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '6695a606bcbdc2f21d059bf4b71874cb -a macroid' '=' '6 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_3_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_3_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-n' '70,10,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '0.200000' '--generations' '100' '--population' '10000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '1.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/16/12 15:22:57 From submit: Submitting job(s).
+08/16/12 15:22:57 From submit: 1 job(s) submitted to cluster 7086.
+08/16/12 15:22:57 	assigned Condor ID (7086.0.0)
+08/16/12 15:22:57 Submitting Condor Node 06bd3e091757e656cdac5e61714fffd0 job(s)...
+08/16/12 15:22:57 submitting: condor_submit -a dag_node_name' '=' '06bd3e091757e656cdac5e61714fffd0 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '06bd3e091757e656cdac5e61714fffd0 -a macroid' '=' '8 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_4_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_4_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-n' '70,10,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '0.200000' '--generations' '100' '--population' '10000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '1.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/16/12 15:22:57 From submit: Submitting job(s).
+08/16/12 15:22:57 From submit: 1 job(s) submitted to cluster 7087.
+08/16/12 15:22:57 	assigned Condor ID (7087.0.0)
+08/16/12 15:22:57 Just submitted 5 jobs this cycle...
+08/16/12 15:22:57 Currently monitoring 1 Condor log file(s)
+08/16/12 15:22:57 Event: ULOG_SUBMIT for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 15:22:57 Number of idle job procs: 1
+08/16/12 15:22:57 Event: ULOG_SUBMIT for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 15:22:57 Number of idle job procs: 2
+08/16/12 15:22:57 Event: ULOG_SUBMIT for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 15:22:57 Number of idle job procs: 3
+08/16/12 15:22:57 Event: ULOG_SUBMIT for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 15:22:57 Number of idle job procs: 4
+08/16/12 15:22:57 Event: ULOG_SUBMIT for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 15:22:57 Number of idle job procs: 5
+08/16/12 15:22:57 Of 21 nodes total:
+08/16/12 15:22:57  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/16/12 15:22:57   ===     ===      ===     ===     ===        ===      ===
+08/16/12 15:22:57     0       0        5       0       5         11        0
+08/16/12 15:22:57 0 job proc(s) currently held
+08/16/12 15:23:02 Sleeping for one second for log file consistency
+08/16/12 15:23:03 Submitting Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae job(s)...
+08/16/12 15:23:03 submitting: condor_submit -a dag_node_name' '=' '21eb7e9b5f1c3c10d4001049da1cb5ae -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '21eb7e9b5f1c3c10d4001049da1cb5ae -a macroid' '=' '10 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_5_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_5_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-n' '70,10,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '0.200000' '--generations' '100' '--population' '10000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '1.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/16/12 15:23:03 From submit: Submitting job(s).
+08/16/12 15:23:03 From submit: 1 job(s) submitted to cluster 7089.
+08/16/12 15:23:03 	assigned Condor ID (7089.0.0)
+08/16/12 15:23:03 Submitting Condor Node 384c43a06cff58b41ebeab3a4176c622 job(s)...
+08/16/12 15:23:03 submitting: condor_submit -a dag_node_name' '=' '384c43a06cff58b41ebeab3a4176c622 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '384c43a06cff58b41ebeab3a4176c622 -a macroid' '=' '12 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_6_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_6_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-n' '70,10,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '0.200000' '--generations' '100' '--population' '10000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '1.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/16/12 15:23:03 From submit: Submitting job(s).
+08/16/12 15:23:03 From submit: 1 job(s) submitted to cluster 7090.
+08/16/12 15:23:03 	assigned Condor ID (7090.0.0)
+08/16/12 15:23:03 Submitting Condor Node 80dfe22eabbcda596d5e545a0831a687 job(s)...
+08/16/12 15:23:04 submitting: condor_submit -a dag_node_name' '=' '80dfe22eabbcda596d5e545a0831a687 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '80dfe22eabbcda596d5e545a0831a687 -a macroid' '=' '14 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_7_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_7_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-n' '70,10,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '0.200000' '--generations' '100' '--population' '10000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '1.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/16/12 15:23:04 From submit: Submitting job(s).
+08/16/12 15:23:04 From submit: 1 job(s) submitted to cluster 7091.
+08/16/12 15:23:04 	assigned Condor ID (7091.0.0)
+08/16/12 15:23:04 Submitting Condor Node 79a561e6d2985402faae99d994645c5c job(s)...
+08/16/12 15:23:04 submitting: condor_submit -a dag_node_name' '=' '79a561e6d2985402faae99d994645c5c -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '79a561e6d2985402faae99d994645c5c -a macroid' '=' '16 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_8_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_8_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-n' '70,10,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '0.200000' '--generations' '100' '--population' '10000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '1.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/16/12 15:23:04 From submit: Submitting job(s).
+08/16/12 15:23:04 From submit: 1 job(s) submitted to cluster 7092.
+08/16/12 15:23:04 	assigned Condor ID (7092.0.0)
+08/16/12 15:23:04 Submitting Condor Node 9bccf994da2238b45477456968dd35c8 job(s)...
+08/16/12 15:23:04 submitting: condor_submit -a dag_node_name' '=' '9bccf994da2238b45477456968dd35c8 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '9bccf994da2238b45477456968dd35c8 -a macroid' '=' '18 -a macroarguments' '=' '-t' 'ALL_S6_959126400_hveto_channels_signif_dt_set_9_training.pat' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_9_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-n' '70,10,1' '-m' '8000' '-w' '-0.100000' '-x' '0.100000' '-y' '1.001000' '-z' '0.500000' '-a' '0.000000' '-b' '50.000000' '-f' '0.500000' '-g' '0.900000' '--connection-rate' '1.000000' '--mutation-rate' '0.200000' '--generations' '100' '--population' '10000' '--range-min' '-25.000000' '--range-max' '25.000000' '--gauss-mu' '0.000000' '--gauss-sigma' '1.000000' '--hidden-activation' 'SIGMOID_STEPWISE' '--output-activation' 'SIGMOID_STEPWISE -a +DAGParentNodeNames' '=' '"" TRAIN_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/16/12 15:23:04 From submit: Submitting job(s).
+08/16/12 15:23:04 From submit: 1 job(s) submitted to cluster 7093.
+08/16/12 15:23:04 	assigned Condor ID (7093.0.0)
+08/16/12 15:23:04 Just submitted 5 jobs this cycle...
+08/16/12 15:23:04 Currently monitoring 1 Condor log file(s)
+08/16/12 15:23:04 Event: ULOG_EXECUTE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 15:23:04 Number of idle job procs: 4
+08/16/12 15:23:04 Event: ULOG_EXECUTE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 15:23:04 Number of idle job procs: 3
+08/16/12 15:23:04 Event: ULOG_EXECUTE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 15:23:04 Number of idle job procs: 2
+08/16/12 15:23:04 Event: ULOG_EXECUTE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 15:23:04 Number of idle job procs: 1
+08/16/12 15:23:04 Event: ULOG_EXECUTE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 15:23:04 Number of idle job procs: 0
+08/16/12 15:23:04 Event: ULOG_SUBMIT for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 15:23:04 Number of idle job procs: 1
+08/16/12 15:23:04 Event: ULOG_SUBMIT for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 15:23:04 Number of idle job procs: 2
+08/16/12 15:23:04 Event: ULOG_SUBMIT for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 15:23:04 Number of idle job procs: 3
+08/16/12 15:23:04 Event: ULOG_SUBMIT for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 15:23:04 Number of idle job procs: 4
+08/16/12 15:23:04 Event: ULOG_SUBMIT for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 15:23:04 Number of idle job procs: 5
+08/16/12 15:23:04 Of 21 nodes total:
+08/16/12 15:23:04  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/16/12 15:23:04   ===     ===      ===     ===     ===        ===      ===
+08/16/12 15:23:04     0       0       10       0       0         11        0
+08/16/12 15:23:04 0 job proc(s) currently held
+08/16/12 15:23:14 Currently monitoring 1 Condor log file(s)
+08/16/12 15:23:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 15:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 15:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 15:23:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 15:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 15:23:24 Currently monitoring 1 Condor log file(s)
+08/16/12 15:23:24 Event: ULOG_EXECUTE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 15:23:24 Number of idle job procs: 4
+08/16/12 15:23:24 Event: ULOG_EXECUTE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 15:23:24 Number of idle job procs: 3
+08/16/12 15:23:24 Event: ULOG_EXECUTE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 15:23:24 Number of idle job procs: 2
+08/16/12 15:23:24 Event: ULOG_EXECUTE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 15:23:24 Number of idle job procs: 1
+08/16/12 15:23:24 Event: ULOG_EXECUTE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 15:23:24 Number of idle job procs: 0
+08/16/12 15:23:34 Currently monitoring 1 Condor log file(s)
+08/16/12 15:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 15:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 15:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 15:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 15:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 15:28:14 Currently monitoring 1 Condor log file(s)
+08/16/12 15:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 15:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 15:28:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 15:28:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 15:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 15:28:34 Currently monitoring 1 Condor log file(s)
+08/16/12 15:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 15:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 15:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 15:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 15:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 15:33:14 Currently monitoring 1 Condor log file(s)
+08/16/12 15:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 15:33:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 15:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 15:33:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 15:33:19 Currently monitoring 1 Condor log file(s)
+08/16/12 15:33:19 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 15:33:34 Currently monitoring 1 Condor log file(s)
+08/16/12 15:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 15:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 15:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 15:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 15:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 15:38:14 Currently monitoring 1 Condor log file(s)
+08/16/12 15:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 15:38:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 15:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 15:38:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 15:38:19 Currently monitoring 1 Condor log file(s)
+08/16/12 15:38:19 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 15:38:34 Currently monitoring 1 Condor log file(s)
+08/16/12 15:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 15:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 15:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 15:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 15:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 15:48:34 600 seconds since last log event
+08/16/12 15:48:34 Pending DAG nodes:
+08/16/12 15:48:34   Node d3dedfcdf6054f9b8bd48d2762620b8f, Condor ID 7083, status STATUS_SUBMITTED
+08/16/12 15:48:34   Node 111c11ca93cbf239214cda3662267e93, Condor ID 7084, status STATUS_SUBMITTED
+08/16/12 15:48:34   Node b32e91c0acabe4e7a6373ee0f27ff5f5, Condor ID 7085, status STATUS_SUBMITTED
+08/16/12 15:48:34   Node 6695a606bcbdc2f21d059bf4b71874cb, Condor ID 7086, status STATUS_SUBMITTED
+08/16/12 15:48:34   Node 06bd3e091757e656cdac5e61714fffd0, Condor ID 7087, status STATUS_SUBMITTED
+08/16/12 15:48:34   Node 21eb7e9b5f1c3c10d4001049da1cb5ae, Condor ID 7089, status STATUS_SUBMITTED
+08/16/12 15:48:34   Node 384c43a06cff58b41ebeab3a4176c622, Condor ID 7090, status STATUS_SUBMITTED
+08/16/12 15:48:34   Node 80dfe22eabbcda596d5e545a0831a687, Condor ID 7091, status STATUS_SUBMITTED
+08/16/12 15:48:34   Node 79a561e6d2985402faae99d994645c5c, Condor ID 7092, status STATUS_SUBMITTED
+08/16/12 15:48:34   Node 9bccf994da2238b45477456968dd35c8, Condor ID 7093, status STATUS_SUBMITTED
+08/16/12 15:58:34 1200 seconds since last log event
+08/16/12 15:58:34 Pending DAG nodes:
+08/16/12 15:58:34   Node d3dedfcdf6054f9b8bd48d2762620b8f, Condor ID 7083, status STATUS_SUBMITTED
+08/16/12 15:58:34   Node 111c11ca93cbf239214cda3662267e93, Condor ID 7084, status STATUS_SUBMITTED
+08/16/12 15:58:34   Node b32e91c0acabe4e7a6373ee0f27ff5f5, Condor ID 7085, status STATUS_SUBMITTED
+08/16/12 15:58:34   Node 6695a606bcbdc2f21d059bf4b71874cb, Condor ID 7086, status STATUS_SUBMITTED
+08/16/12 15:58:34   Node 06bd3e091757e656cdac5e61714fffd0, Condor ID 7087, status STATUS_SUBMITTED
+08/16/12 15:58:34   Node 21eb7e9b5f1c3c10d4001049da1cb5ae, Condor ID 7089, status STATUS_SUBMITTED
+08/16/12 15:58:34   Node 384c43a06cff58b41ebeab3a4176c622, Condor ID 7090, status STATUS_SUBMITTED
+08/16/12 15:58:34   Node 80dfe22eabbcda596d5e545a0831a687, Condor ID 7091, status STATUS_SUBMITTED
+08/16/12 15:58:34   Node 79a561e6d2985402faae99d994645c5c, Condor ID 7092, status STATUS_SUBMITTED
+08/16/12 15:58:34   Node 9bccf994da2238b45477456968dd35c8, Condor ID 7093, status STATUS_SUBMITTED
+08/16/12 16:08:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:08:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:08:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:13:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 16:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 16:13:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:13:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 16:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 16:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 16:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:18:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 16:18:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 16:18:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 16:18:24 Currently monitoring 1 Condor log file(s)
+08/16/12 16:18:24 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 16:18:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 16:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 16:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 16:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 16:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:23:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 16:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 16:23:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:23:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 16:23:29 Currently monitoring 1 Condor log file(s)
+08/16/12 16:23:29 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 16:23:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 16:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 16:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 16:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 16:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:28:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 16:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 16:28:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:28:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 16:28:29 Currently monitoring 1 Condor log file(s)
+08/16/12 16:28:29 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 16:28:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 16:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 16:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 16:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 16:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:33:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 16:33:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 16:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 16:33:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:33:29 Currently monitoring 1 Condor log file(s)
+08/16/12 16:33:29 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 16:33:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 16:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 16:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 16:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 16:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:38:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 16:38:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 16:38:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 16:38:29 Currently monitoring 1 Condor log file(s)
+08/16/12 16:38:29 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 16:38:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 16:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 16:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 16:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 16:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:43:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 16:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 16:43:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:43:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 16:43:29 Currently monitoring 1 Condor log file(s)
+08/16/12 16:43:29 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 16:43:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 16:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 16:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 16:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 16:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:48:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 16:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 16:48:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:48:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 16:48:29 Currently monitoring 1 Condor log file(s)
+08/16/12 16:48:29 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 16:48:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 16:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 16:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 16:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 16:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:53:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 16:53:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 16:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 16:53:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:53:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 16:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 16:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 16:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 16:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 16:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:58:14 Currently monitoring 1 Condor log file(s)
+08/16/12 16:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 16:58:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 16:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 16:58:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 16:58:34 Currently monitoring 1 Condor log file(s)
+08/16/12 16:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 16:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 16:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 16:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 16:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 16:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:03:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:03:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:03:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:03:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:08:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:08:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:08:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:08:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:13:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:13:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:13:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:13:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:18:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:18:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:18:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:18:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:18:39 Currently monitoring 1 Condor log file(s)
+08/16/12 17:18:39 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:23:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:23:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:23:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:23:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:23:39 Currently monitoring 1 Condor log file(s)
+08/16/12 17:23:39 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:28:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:28:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:28:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:28:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:28:39 Currently monitoring 1 Condor log file(s)
+08/16/12 17:28:39 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:33:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:33:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:33:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:33:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:33:39 Currently monitoring 1 Condor log file(s)
+08/16/12 17:33:39 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:38:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:38:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:38:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:38:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:38:39 Currently monitoring 1 Condor log file(s)
+08/16/12 17:38:39 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:43:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:43:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:43:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:43:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:43:44 Currently monitoring 1 Condor log file(s)
+08/16/12 17:43:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:48:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:48:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:48:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:48:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:48:44 Currently monitoring 1 Condor log file(s)
+08/16/12 17:48:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:53:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:53:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:53:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:53:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:53:44 Currently monitoring 1 Condor log file(s)
+08/16/12 17:53:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 17:58:14 Currently monitoring 1 Condor log file(s)
+08/16/12 17:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 17:58:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 17:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 17:58:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 17:58:34 Currently monitoring 1 Condor log file(s)
+08/16/12 17:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 17:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 17:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 17:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 17:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 17:58:44 Currently monitoring 1 Condor log file(s)
+08/16/12 17:58:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:03:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:03:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:03:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:03:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:03:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:03:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:08:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:08:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:08:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:08:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:08:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:08:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:13:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:13:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:13:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:13:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:13:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:13:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:18:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:18:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:18:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:18:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:18:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:18:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:23:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:23:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:23:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:23:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:23:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:23:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:28:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:28:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:28:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:28:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:28:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:28:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:33:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:33:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:33:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:33:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:33:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:33:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:38:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:38:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:38:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:38:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:38:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:38:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:43:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:43:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:43:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:43:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:43:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:43:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:48:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:48:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:48:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:48:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:48:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:48:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:53:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:53:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:53:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:53:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:53:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:53:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 18:58:14 Currently monitoring 1 Condor log file(s)
+08/16/12 18:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 18:58:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 18:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 18:58:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 18:58:34 Currently monitoring 1 Condor log file(s)
+08/16/12 18:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 18:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 18:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 18:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 18:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 18:58:44 Currently monitoring 1 Condor log file(s)
+08/16/12 18:58:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:03:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:03:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:03:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:03:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:03:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:03:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:08:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:08:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:08:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:08:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:08:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:08:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:13:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:13:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:13:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:13:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:13:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:13:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:18:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:18:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:18:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:18:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:18:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:18:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:23:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:23:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:23:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:23:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:23:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:23:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:28:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:28:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:28:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:28:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:28:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:28:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:33:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:33:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:33:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:33:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:33:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:33:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:38:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:38:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:38:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:38:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:38:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:38:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:43:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:43:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:43:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:43:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:43:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:43:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:48:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:48:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:48:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:48:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:48:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:48:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:53:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:53:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:53:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:53:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:53:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:53:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 19:58:14 Currently monitoring 1 Condor log file(s)
+08/16/12 19:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 19:58:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 19:58:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 19:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 19:58:34 Currently monitoring 1 Condor log file(s)
+08/16/12 19:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 19:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 19:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 19:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 19:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 19:58:44 Currently monitoring 1 Condor log file(s)
+08/16/12 19:58:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:03:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:03:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:03:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:03:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:03:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:03:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:08:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:08:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:08:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:08:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:08:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:08:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:13:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:13:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:13:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:13:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:13:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:13:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:18:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:18:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:18:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:18:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:18:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:18:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:23:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:23:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:23:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:23:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:23:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:23:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:28:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:28:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:28:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:28:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:28:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:28:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:33:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:33:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:33:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:33:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:33:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:33:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:38:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:38:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:38:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:38:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:38:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:38:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:43:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:43:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:43:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:43:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:43:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:43:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:48:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:48:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:48:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:48:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:48:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:48:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:53:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:53:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:53:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:53:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:53:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:53:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 20:58:14 Currently monitoring 1 Condor log file(s)
+08/16/12 20:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 20:58:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 20:58:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 20:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 20:58:34 Currently monitoring 1 Condor log file(s)
+08/16/12 20:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 20:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 20:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 20:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 20:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 20:58:44 Currently monitoring 1 Condor log file(s)
+08/16/12 20:58:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:03:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:03:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:03:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:03:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:03:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:03:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:08:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:08:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:08:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:08:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:08:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:08:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:13:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:13:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:13:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:13:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:13:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:13:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:18:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:18:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:18:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:18:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:18:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:18:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:23:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:23:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:23:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:23:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:23:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:23:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:28:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:28:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:28:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:28:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:28:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:28:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:33:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:33:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:33:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:33:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:33:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:33:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:38:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:38:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:38:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:38:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:38:39 Currently monitoring 1 Condor log file(s)
+08/16/12 21:38:39 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:38:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:38:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:43:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:43:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:43:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:43:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:43:39 Currently monitoring 1 Condor log file(s)
+08/16/12 21:43:39 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:43:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:43:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:48:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:48:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:48:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:48:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:48:39 Currently monitoring 1 Condor log file(s)
+08/16/12 21:48:39 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:48:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:48:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:53:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:53:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:53:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:53:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:53:39 Currently monitoring 1 Condor log file(s)
+08/16/12 21:53:39 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:53:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:53:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 21:58:14 Currently monitoring 1 Condor log file(s)
+08/16/12 21:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 21:58:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 21:58:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 21:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 21:58:34 Currently monitoring 1 Condor log file(s)
+08/16/12 21:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 21:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 21:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 21:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 21:58:39 Currently monitoring 1 Condor log file(s)
+08/16/12 21:58:39 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 21:58:44 Currently monitoring 1 Condor log file(s)
+08/16/12 21:58:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:03:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:03:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:03:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:03:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:03:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:03:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:03:44 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:03:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:08:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:08:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:08:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:08:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:08:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:08:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:08:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:08:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:08:44 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:13:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:13:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:13:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:13:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:13:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:13:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:13:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:13:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:13:44 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:18:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:18:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:18:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:18:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:18:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:18:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:18:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:18:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:18:44 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:23:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:23:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:23:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:23:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:23:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:23:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:23:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:23:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:23:44 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:28:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:28:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:28:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:28:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:28:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:28:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:28:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:28:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:28:49 Currently monitoring 1 Condor log file(s)
+08/16/12 22:28:49 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:33:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:33:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:33:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:33:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:33:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:33:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:33:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:33:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:33:49 Currently monitoring 1 Condor log file(s)
+08/16/12 22:33:49 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:38:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:38:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:38:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:38:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:38:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:38:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:38:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:38:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:38:49 Currently monitoring 1 Condor log file(s)
+08/16/12 22:38:49 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:43:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:43:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:43:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:43:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:43:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:43:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:43:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:43:49 Currently monitoring 1 Condor log file(s)
+08/16/12 22:43:49 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:48:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:48:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:48:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:48:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:48:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:48:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:48:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:48:49 Currently monitoring 1 Condor log file(s)
+08/16/12 22:48:49 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:53:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:53:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:53:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:53:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:53:39 Currently monitoring 1 Condor log file(s)
+08/16/12 22:53:39 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:53:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:53:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:53:54 Currently monitoring 1 Condor log file(s)
+08/16/12 22:53:54 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 22:58:14 Currently monitoring 1 Condor log file(s)
+08/16/12 22:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 22:58:14 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 22:58:14 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 22:58:14 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 22:58:34 Currently monitoring 1 Condor log file(s)
+08/16/12 22:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 22:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 22:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 22:58:39 Currently monitoring 1 Condor log file(s)
+08/16/12 22:58:39 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 22:58:44 Currently monitoring 1 Condor log file(s)
+08/16/12 22:58:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 22:58:54 Currently monitoring 1 Condor log file(s)
+08/16/12 22:58:54 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:03:14 Currently monitoring 1 Condor log file(s)
+08/16/12 23:03:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:03:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:03:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:03:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:03:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:03:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:03:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:03:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:03:40 Currently monitoring 1 Condor log file(s)
+08/16/12 23:03:40 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:03:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:03:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:03:55 Currently monitoring 1 Condor log file(s)
+08/16/12 23:03:55 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:08:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:08:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:08:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:08:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:08:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:08:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:08:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:08:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:08:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:08:40 Currently monitoring 1 Condor log file(s)
+08/16/12 23:08:40 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:08:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:08:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:08:55 Currently monitoring 1 Condor log file(s)
+08/16/12 23:08:55 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:13:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:13:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:13:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:13:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:13:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:13:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:13:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:13:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:13:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:13:40 Currently monitoring 1 Condor log file(s)
+08/16/12 23:13:40 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:13:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:13:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:13:55 Currently monitoring 1 Condor log file(s)
+08/16/12 23:13:55 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:18:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:18:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:18:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:18:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:18:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:18:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:18:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:18:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:18:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:18:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:18:45 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:18:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:19:00 Currently monitoring 1 Condor log file(s)
+08/16/12 23:19:00 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:23:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:23:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:23:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:23:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:23:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:23:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:23:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:23:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:23:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:23:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:23:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:23:45 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:24:00 Currently monitoring 1 Condor log file(s)
+08/16/12 23:24:00 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:28:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:28:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:28:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:28:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:28:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:28:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:28:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:28:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:28:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:28:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:28:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:28:45 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:29:00 Currently monitoring 1 Condor log file(s)
+08/16/12 23:29:00 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:33:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:33:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:33:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:33:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:33:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:33:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:33:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:33:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:33:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:33:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:33:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:33:45 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:34:00 Currently monitoring 1 Condor log file(s)
+08/16/12 23:34:00 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:38:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:38:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:38:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:38:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:38:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:38:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:38:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:38:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:38:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:38:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:38:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:38:45 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:39:00 Currently monitoring 1 Condor log file(s)
+08/16/12 23:39:00 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:43:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:43:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:43:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:43:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:43:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:43:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:43:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:43:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:43:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:43:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:43:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:43:50 Currently monitoring 1 Condor log file(s)
+08/16/12 23:43:50 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:44:05 Currently monitoring 1 Condor log file(s)
+08/16/12 23:44:05 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:48:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:48:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:48:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:48:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:48:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:48:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:48:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:48:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:48:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:48:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:48:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:48:50 Currently monitoring 1 Condor log file(s)
+08/16/12 23:48:50 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:49:05 Currently monitoring 1 Condor log file(s)
+08/16/12 23:49:05 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:53:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:53:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:53:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:53:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:53:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:53:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:53:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:53:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:53:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:53:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:53:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:53:50 Currently monitoring 1 Condor log file(s)
+08/16/12 23:53:50 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:54:05 Currently monitoring 1 Condor log file(s)
+08/16/12 23:54:05 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/16/12 23:58:15 Currently monitoring 1 Condor log file(s)
+08/16/12 23:58:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/16/12 23:58:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/16/12 23:58:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/16/12 23:58:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/16/12 23:58:35 Currently monitoring 1 Condor log file(s)
+08/16/12 23:58:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/16/12 23:58:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/16/12 23:58:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/16/12 23:58:45 Currently monitoring 1 Condor log file(s)
+08/16/12 23:58:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/16/12 23:58:50 Currently monitoring 1 Condor log file(s)
+08/16/12 23:58:50 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/16/12 23:59:05 Currently monitoring 1 Condor log file(s)
+08/16/12 23:59:05 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/17/12 00:03:15 Currently monitoring 1 Condor log file(s)
+08/17/12 00:03:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/17/12 00:03:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/17/12 00:03:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:03:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:03:35 Currently monitoring 1 Condor log file(s)
+08/17/12 00:03:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:03:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:03:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:03:45 Currently monitoring 1 Condor log file(s)
+08/17/12 00:03:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:03:50 Currently monitoring 1 Condor log file(s)
+08/17/12 00:03:50 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:04:05 Currently monitoring 1 Condor log file(s)
+08/17/12 00:04:05 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/17/12 00:08:15 Currently monitoring 1 Condor log file(s)
+08/17/12 00:08:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/17/12 00:08:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/17/12 00:08:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:08:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:08:35 Currently monitoring 1 Condor log file(s)
+08/17/12 00:08:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:08:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:08:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:08:45 Currently monitoring 1 Condor log file(s)
+08/17/12 00:08:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:08:55 Currently monitoring 1 Condor log file(s)
+08/17/12 00:08:55 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:09:10 Currently monitoring 1 Condor log file(s)
+08/17/12 00:09:10 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/17/12 00:13:15 Currently monitoring 1 Condor log file(s)
+08/17/12 00:13:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/17/12 00:13:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/17/12 00:13:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:13:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:13:35 Currently monitoring 1 Condor log file(s)
+08/17/12 00:13:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:13:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:13:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:13:45 Currently monitoring 1 Condor log file(s)
+08/17/12 00:13:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:13:55 Currently monitoring 1 Condor log file(s)
+08/17/12 00:13:55 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:14:10 Currently monitoring 1 Condor log file(s)
+08/17/12 00:14:10 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/17/12 00:18:15 Currently monitoring 1 Condor log file(s)
+08/17/12 00:18:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/17/12 00:18:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/17/12 00:18:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:18:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:18:35 Currently monitoring 1 Condor log file(s)
+08/17/12 00:18:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:18:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:18:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:18:45 Currently monitoring 1 Condor log file(s)
+08/17/12 00:18:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:18:55 Currently monitoring 1 Condor log file(s)
+08/17/12 00:18:55 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:19:10 Currently monitoring 1 Condor log file(s)
+08/17/12 00:19:10 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/17/12 00:23:15 Currently monitoring 1 Condor log file(s)
+08/17/12 00:23:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/17/12 00:23:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/17/12 00:23:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:23:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:23:35 Currently monitoring 1 Condor log file(s)
+08/17/12 00:23:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:23:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:23:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:23:45 Currently monitoring 1 Condor log file(s)
+08/17/12 00:23:45 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:23:55 Currently monitoring 1 Condor log file(s)
+08/17/12 00:23:55 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:24:10 Currently monitoring 1 Condor log file(s)
+08/17/12 00:24:10 Event: ULOG_IMAGE_SIZE for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/17/12 00:28:15 Currently monitoring 1 Condor log file(s)
+08/17/12 00:28:15 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/17/12 00:28:15 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/17/12 00:28:15 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:28:15 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:28:35 Currently monitoring 1 Condor log file(s)
+08/17/12 00:28:35 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:28:35 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:28:35 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:28:40 Currently monitoring 1 Condor log file(s)
+08/17/12 00:28:40 Event: ULOG_JOB_TERMINATED for Condor Node 9bccf994da2238b45477456968dd35c8 (7093.0.0)
+08/17/12 00:28:40 Node 9bccf994da2238b45477456968dd35c8 job proc (7093.0.0) completed successfully.
+08/17/12 00:28:40 Node 9bccf994da2238b45477456968dd35c8 job completed
+08/17/12 00:28:40 Number of idle job procs: 0
+08/17/12 00:28:40 Of 21 nodes total:
+08/17/12 00:28:40  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:28:40   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:28:40     1       0        9       0       1         10        0
+08/17/12 00:28:40 0 job proc(s) currently held
+08/17/12 00:28:45 Sleeping for one second for log file consistency
+08/17/12 00:28:46 Submitting Condor Node 3362c5b227bfa8aab9d373618937c1e5 job(s)...
+08/17/12 00:28:46 submitting: condor_submit -a dag_node_name' '=' '3362c5b227bfa8aab9d373618937c1e5 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '3362c5b227bfa8aab9d373618937c1e5 -a macroid' '=' '19 -a macroarguments' '=' '-e' 'ALL_S6_959126400_hveto_channels_signif_dt_set_9_evaluation.pat' '-n' 'ALL_S6_959126400_hveto_channels_signif_dt_set_9_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_9_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat -a +DAGParentNodeNames' '=' '"9bccf994da2238b45477456968dd35c8" USE_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 00:28:46 From submit: Submitting job(s).
+08/17/12 00:28:46 From submit: 1 job(s) submitted to cluster 7141.
+08/17/12 00:28:46 	assigned Condor ID (7141.0.0)
+08/17/12 00:28:46 Just submitted 1 job this cycle...
+08/17/12 00:28:46 Currently monitoring 1 Condor log file(s)
+08/17/12 00:28:46 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:28:46 Event: ULOG_SUBMIT for Condor Node 3362c5b227bfa8aab9d373618937c1e5 (7141.0.0)
+08/17/12 00:28:46 Number of idle job procs: 1
+08/17/12 00:28:46 Of 21 nodes total:
+08/17/12 00:28:46  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:28:46   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:28:46     1       0       10       0       0         10        0
+08/17/12 00:28:46 0 job proc(s) currently held
+08/17/12 00:28:56 Currently monitoring 1 Condor log file(s)
+08/17/12 00:28:56 Event: ULOG_EXECUTE for Condor Node 3362c5b227bfa8aab9d373618937c1e5 (7141.0.0)
+08/17/12 00:28:56 Number of idle job procs: 0
+08/17/12 00:28:56 Event: ULOG_JOB_TERMINATED for Condor Node 3362c5b227bfa8aab9d373618937c1e5 (7141.0.0)
+08/17/12 00:28:56 Node 3362c5b227bfa8aab9d373618937c1e5 job proc (7141.0.0) completed successfully.
+08/17/12 00:28:56 Node 3362c5b227bfa8aab9d373618937c1e5 job completed
+08/17/12 00:28:56 Number of idle job procs: 0
+08/17/12 00:28:56 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:28:56 Of 21 nodes total:
+08/17/12 00:28:56  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:28:56   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:28:56     2       0        9       0       0         10        0
+08/17/12 00:28:56 0 job proc(s) currently held
+08/17/12 00:33:16 Currently monitoring 1 Condor log file(s)
+08/17/12 00:33:16 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/17/12 00:33:16 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/17/12 00:33:16 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:33:16 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:33:31 Currently monitoring 1 Condor log file(s)
+08/17/12 00:33:31 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:33:31 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:33:31 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:33:46 Currently monitoring 1 Condor log file(s)
+08/17/12 00:33:46 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:33:56 Currently monitoring 1 Condor log file(s)
+08/17/12 00:33:56 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:38:16 Currently monitoring 1 Condor log file(s)
+08/17/12 00:38:16 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/17/12 00:38:16 Event: ULOG_IMAGE_SIZE for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/17/12 00:38:16 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:38:16 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:38:31 Currently monitoring 1 Condor log file(s)
+08/17/12 00:38:31 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:38:31 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:38:31 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:38:46 Currently monitoring 1 Condor log file(s)
+08/17/12 00:38:46 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:39:01 Currently monitoring 1 Condor log file(s)
+08/17/12 00:39:01 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:43:16 Currently monitoring 1 Condor log file(s)
+08/17/12 00:43:16 Event: ULOG_IMAGE_SIZE for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/17/12 00:43:16 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:43:16 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:43:31 Currently monitoring 1 Condor log file(s)
+08/17/12 00:43:31 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:43:31 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:43:31 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:43:46 Currently monitoring 1 Condor log file(s)
+08/17/12 00:43:46 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:43:46 Event: ULOG_JOB_TERMINATED for Condor Node d3dedfcdf6054f9b8bd48d2762620b8f (7083.0.0)
+08/17/12 00:43:46 Node d3dedfcdf6054f9b8bd48d2762620b8f job proc (7083.0.0) completed successfully.
+08/17/12 00:43:46 Node d3dedfcdf6054f9b8bd48d2762620b8f job completed
+08/17/12 00:43:46 Number of idle job procs: 0
+08/17/12 00:43:46 Of 21 nodes total:
+08/17/12 00:43:46  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:43:46   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:43:46     3       0        8       0       1          9        0
+08/17/12 00:43:46 0 job proc(s) currently held
+08/17/12 00:43:51 Sleeping for one second for log file consistency
+08/17/12 00:43:52 Submitting Condor Node d5688e7277f598cf88bafc8e33d7b6ca job(s)...
+08/17/12 00:43:52 submitting: condor_submit -a dag_node_name' '=' 'd5688e7277f598cf88bafc8e33d7b6ca -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' 'd5688e7277f598cf88bafc8e33d7b6ca -a macroid' '=' '1 -a macroarguments' '=' '-e' 'ALL_S6_959126400_hveto_channels_signif_dt_set_0_evaluation.pat' '-n' 'ALL_S6_959126400_hveto_channels_signif_dt_set_0_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_0_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat -a +DAGParentNodeNames' '=' '"d3dedfcdf6054f9b8bd48d2762620b8f" USE_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 00:43:52 From submit: Submitting job(s).
+08/17/12 00:43:52 From submit: 1 job(s) submitted to cluster 7142.
+08/17/12 00:43:52 	assigned Condor ID (7142.0.0)
+08/17/12 00:43:52 Just submitted 1 job this cycle...
+08/17/12 00:43:52 Currently monitoring 1 Condor log file(s)
+08/17/12 00:43:52 Event: ULOG_SUBMIT for Condor Node d5688e7277f598cf88bafc8e33d7b6ca (7142.0.0)
+08/17/12 00:43:52 Number of idle job procs: 1
+08/17/12 00:43:52 Of 21 nodes total:
+08/17/12 00:43:52  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:43:52   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:43:52     3       0        9       0       0          9        0
+08/17/12 00:43:52 0 job proc(s) currently held
+08/17/12 00:43:57 Currently monitoring 1 Condor log file(s)
+08/17/12 00:43:57 Event: ULOG_EXECUTE for Condor Node d5688e7277f598cf88bafc8e33d7b6ca (7142.0.0)
+08/17/12 00:43:57 Number of idle job procs: 0
+08/17/12 00:43:57 Event: ULOG_JOB_TERMINATED for Condor Node d5688e7277f598cf88bafc8e33d7b6ca (7142.0.0)
+08/17/12 00:43:57 Node d5688e7277f598cf88bafc8e33d7b6ca job proc (7142.0.0) completed successfully.
+08/17/12 00:43:57 Node d5688e7277f598cf88bafc8e33d7b6ca job completed
+08/17/12 00:43:57 Number of idle job procs: 0
+08/17/12 00:43:57 Of 21 nodes total:
+08/17/12 00:43:57  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:43:57   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:43:57     4       0        8       0       0          9        0
+08/17/12 00:43:57 0 job proc(s) currently held
+08/17/12 00:44:02 Currently monitoring 1 Condor log file(s)
+08/17/12 00:44:02 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:46:07 Currently monitoring 1 Condor log file(s)
+08/17/12 00:46:07 Event: ULOG_JOB_TERMINATED for Condor Node b32e91c0acabe4e7a6373ee0f27ff5f5 (7085.0.0)
+08/17/12 00:46:07 Node b32e91c0acabe4e7a6373ee0f27ff5f5 job proc (7085.0.0) completed successfully.
+08/17/12 00:46:07 Node b32e91c0acabe4e7a6373ee0f27ff5f5 job completed
+08/17/12 00:46:07 Number of idle job procs: 0
+08/17/12 00:46:07 Of 21 nodes total:
+08/17/12 00:46:07  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:46:07   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:46:07     5       0        7       0       1          8        0
+08/17/12 00:46:07 0 job proc(s) currently held
+08/17/12 00:46:12 Sleeping for one second for log file consistency
+08/17/12 00:46:13 Submitting Condor Node 2bbe586f3bebad7b7aea4079dd5e6647 job(s)...
+08/17/12 00:46:13 submitting: condor_submit -a dag_node_name' '=' '2bbe586f3bebad7b7aea4079dd5e6647 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '2bbe586f3bebad7b7aea4079dd5e6647 -a macroid' '=' '5 -a macroarguments' '=' '-e' 'ALL_S6_959126400_hveto_channels_signif_dt_set_2_evaluation.pat' '-n' 'ALL_S6_959126400_hveto_channels_signif_dt_set_2_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_2_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat -a +DAGParentNodeNames' '=' '"b32e91c0acabe4e7a6373ee0f27ff5f5" USE_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 00:46:13 From submit: Submitting job(s).
+08/17/12 00:46:13 From submit: 1 job(s) submitted to cluster 7143.
+08/17/12 00:46:13 	assigned Condor ID (7143.0.0)
+08/17/12 00:46:13 Just submitted 1 job this cycle...
+08/17/12 00:46:13 Currently monitoring 1 Condor log file(s)
+08/17/12 00:46:13 Event: ULOG_SUBMIT for Condor Node 2bbe586f3bebad7b7aea4079dd5e6647 (7143.0.0)
+08/17/12 00:46:13 Number of idle job procs: 1
+08/17/12 00:46:13 Of 21 nodes total:
+08/17/12 00:46:13  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:46:13   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:46:13     5       0        8       0       0          8        0
+08/17/12 00:46:13 0 job proc(s) currently held
+08/17/12 00:46:18 Currently monitoring 1 Condor log file(s)
+08/17/12 00:46:18 Event: ULOG_EXECUTE for Condor Node 2bbe586f3bebad7b7aea4079dd5e6647 (7143.0.0)
+08/17/12 00:46:18 Number of idle job procs: 0
+08/17/12 00:46:18 Event: ULOG_JOB_TERMINATED for Condor Node 2bbe586f3bebad7b7aea4079dd5e6647 (7143.0.0)
+08/17/12 00:46:18 Node 2bbe586f3bebad7b7aea4079dd5e6647 job proc (7143.0.0) completed successfully.
+08/17/12 00:46:18 Node 2bbe586f3bebad7b7aea4079dd5e6647 job completed
+08/17/12 00:46:18 Number of idle job procs: 0
+08/17/12 00:46:18 Of 21 nodes total:
+08/17/12 00:46:18  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:46:18   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:46:18     6       0        7       0       0          8        0
+08/17/12 00:46:18 0 job proc(s) currently held
+08/17/12 00:48:13 Currently monitoring 1 Condor log file(s)
+08/17/12 00:48:13 Event: ULOG_IMAGE_SIZE for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:48:13 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:48:33 Currently monitoring 1 Condor log file(s)
+08/17/12 00:48:33 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:48:33 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:48:33 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:48:43 Currently monitoring 1 Condor log file(s)
+08/17/12 00:48:43 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:49:03 Currently monitoring 1 Condor log file(s)
+08/17/12 00:49:03 Event: ULOG_IMAGE_SIZE for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:52:58 Currently monitoring 1 Condor log file(s)
+08/17/12 00:52:58 Event: ULOG_JOB_TERMINATED for Condor Node 111c11ca93cbf239214cda3662267e93 (7084.0.0)
+08/17/12 00:52:58 Node 111c11ca93cbf239214cda3662267e93 job proc (7084.0.0) completed successfully.
+08/17/12 00:52:58 Node 111c11ca93cbf239214cda3662267e93 job completed
+08/17/12 00:52:58 Number of idle job procs: 0
+08/17/12 00:52:58 Of 21 nodes total:
+08/17/12 00:52:58  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:52:58   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:52:58     7       0        6       0       1          7        0
+08/17/12 00:52:58 0 job proc(s) currently held
+08/17/12 00:53:03 Sleeping for one second for log file consistency
+08/17/12 00:53:04 Submitting Condor Node 9b4541da58b0e2738a1567f51d0e2891 job(s)...
+08/17/12 00:53:04 submitting: condor_submit -a dag_node_name' '=' '9b4541da58b0e2738a1567f51d0e2891 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '9b4541da58b0e2738a1567f51d0e2891 -a macroid' '=' '3 -a macroarguments' '=' '-e' 'ALL_S6_959126400_hveto_channels_signif_dt_set_1_evaluation.pat' '-n' 'ALL_S6_959126400_hveto_channels_signif_dt_set_1_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_1_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat -a +DAGParentNodeNames' '=' '"111c11ca93cbf239214cda3662267e93" USE_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 00:53:04 From submit: Submitting job(s).
+08/17/12 00:53:04 From submit: 1 job(s) submitted to cluster 7144.
+08/17/12 00:53:04 	assigned Condor ID (7144.0.0)
+08/17/12 00:53:04 Just submitted 1 job this cycle...
+08/17/12 00:53:04 Currently monitoring 1 Condor log file(s)
+08/17/12 00:53:04 Event: ULOG_SUBMIT for Condor Node 9b4541da58b0e2738a1567f51d0e2891 (7144.0.0)
+08/17/12 00:53:04 Number of idle job procs: 1
+08/17/12 00:53:04 Of 21 nodes total:
+08/17/12 00:53:04  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:53:04   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:53:04     7       0        7       0       0          7        0
+08/17/12 00:53:04 0 job proc(s) currently held
+08/17/12 00:53:14 Currently monitoring 1 Condor log file(s)
+08/17/12 00:53:14 Event: ULOG_IMAGE_SIZE for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:53:19 Currently monitoring 1 Condor log file(s)
+08/17/12 00:53:19 Event: ULOG_EXECUTE for Condor Node 9b4541da58b0e2738a1567f51d0e2891 (7144.0.0)
+08/17/12 00:53:19 Number of idle job procs: 0
+08/17/12 00:53:19 Event: ULOG_JOB_TERMINATED for Condor Node 9b4541da58b0e2738a1567f51d0e2891 (7144.0.0)
+08/17/12 00:53:19 Node 9b4541da58b0e2738a1567f51d0e2891 job proc (7144.0.0) completed successfully.
+08/17/12 00:53:19 Node 9b4541da58b0e2738a1567f51d0e2891 job completed
+08/17/12 00:53:19 Number of idle job procs: 0
+08/17/12 00:53:19 Of 21 nodes total:
+08/17/12 00:53:19  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:53:19   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:53:19     8       0        6       0       0          7        0
+08/17/12 00:53:19 0 job proc(s) currently held
+08/17/12 00:53:34 Currently monitoring 1 Condor log file(s)
+08/17/12 00:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:53:44 Currently monitoring 1 Condor log file(s)
+08/17/12 00:53:44 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 00:54:04 Currently monitoring 1 Condor log file(s)
+08/17/12 00:54:04 Event: ULOG_JOB_TERMINATED for Condor Node 79a561e6d2985402faae99d994645c5c (7092.0.0)
+08/17/12 00:54:04 Node 79a561e6d2985402faae99d994645c5c job proc (7092.0.0) completed successfully.
+08/17/12 00:54:04 Node 79a561e6d2985402faae99d994645c5c job completed
+08/17/12 00:54:04 Number of idle job procs: 0
+08/17/12 00:54:04 Of 21 nodes total:
+08/17/12 00:54:04  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:54:04   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:54:04     9       0        5       0       1          6        0
+08/17/12 00:54:04 0 job proc(s) currently held
+08/17/12 00:54:09 Sleeping for one second for log file consistency
+08/17/12 00:54:10 Submitting Condor Node db6b4031d9142b933f033e9eae50c409 job(s)...
+08/17/12 00:54:10 submitting: condor_submit -a dag_node_name' '=' 'db6b4031d9142b933f033e9eae50c409 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' 'db6b4031d9142b933f033e9eae50c409 -a macroid' '=' '17 -a macroarguments' '=' '-e' 'ALL_S6_959126400_hveto_channels_signif_dt_set_8_evaluation.pat' '-n' 'ALL_S6_959126400_hveto_channels_signif_dt_set_8_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_8_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat -a +DAGParentNodeNames' '=' '"79a561e6d2985402faae99d994645c5c" USE_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 00:54:10 From submit: Submitting job(s).
+08/17/12 00:54:10 From submit: 1 job(s) submitted to cluster 7145.
+08/17/12 00:54:10 	assigned Condor ID (7145.0.0)
+08/17/12 00:54:10 Just submitted 1 job this cycle...
+08/17/12 00:54:10 Currently monitoring 1 Condor log file(s)
+08/17/12 00:54:10 Event: ULOG_SUBMIT for Condor Node db6b4031d9142b933f033e9eae50c409 (7145.0.0)
+08/17/12 00:54:10 Number of idle job procs: 1
+08/17/12 00:54:10 Of 21 nodes total:
+08/17/12 00:54:10  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:54:10   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:54:10     9       0        6       0       0          6        0
+08/17/12 00:54:10 0 job proc(s) currently held
+08/17/12 00:54:20 Currently monitoring 1 Condor log file(s)
+08/17/12 00:54:20 Event: ULOG_EXECUTE for Condor Node db6b4031d9142b933f033e9eae50c409 (7145.0.0)
+08/17/12 00:54:20 Number of idle job procs: 0
+08/17/12 00:54:20 Event: ULOG_JOB_TERMINATED for Condor Node db6b4031d9142b933f033e9eae50c409 (7145.0.0)
+08/17/12 00:54:20 Node db6b4031d9142b933f033e9eae50c409 job proc (7145.0.0) completed successfully.
+08/17/12 00:54:20 Node db6b4031d9142b933f033e9eae50c409 job completed
+08/17/12 00:54:20 Number of idle job procs: 0
+08/17/12 00:54:20 Of 21 nodes total:
+08/17/12 00:54:20  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:54:20   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:54:20    10       0        5       0       0          6        0
+08/17/12 00:54:20 0 job proc(s) currently held
+08/17/12 00:57:25 Currently monitoring 1 Condor log file(s)
+08/17/12 00:57:25 Event: ULOG_JOB_TERMINATED for Condor Node 6695a606bcbdc2f21d059bf4b71874cb (7086.0.0)
+08/17/12 00:57:25 Node 6695a606bcbdc2f21d059bf4b71874cb job proc (7086.0.0) completed successfully.
+08/17/12 00:57:25 Node 6695a606bcbdc2f21d059bf4b71874cb job completed
+08/17/12 00:57:25 Number of idle job procs: 0
+08/17/12 00:57:25 Of 21 nodes total:
+08/17/12 00:57:25  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:57:25   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:57:25    11       0        4       0       1          5        0
+08/17/12 00:57:25 0 job proc(s) currently held
+08/17/12 00:57:30 Sleeping for one second for log file consistency
+08/17/12 00:57:31 Submitting Condor Node f270579a6d7a7b7ebdf1a1272e2a3f6b job(s)...
+08/17/12 00:57:31 submitting: condor_submit -a dag_node_name' '=' 'f270579a6d7a7b7ebdf1a1272e2a3f6b -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' 'f270579a6d7a7b7ebdf1a1272e2a3f6b -a macroid' '=' '7 -a macroarguments' '=' '-e' 'ALL_S6_959126400_hveto_channels_signif_dt_set_3_evaluation.pat' '-n' 'ALL_S6_959126400_hveto_channels_signif_dt_set_3_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_3_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat -a +DAGParentNodeNames' '=' '"6695a606bcbdc2f21d059bf4b71874cb" USE_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 00:57:31 From submit: Submitting job(s).
+08/17/12 00:57:31 From submit: 1 job(s) submitted to cluster 7146.
+08/17/12 00:57:31 	assigned Condor ID (7146.0.0)
+08/17/12 00:57:31 Just submitted 1 job this cycle...
+08/17/12 00:57:31 Currently monitoring 1 Condor log file(s)
+08/17/12 00:57:31 Event: ULOG_SUBMIT for Condor Node f270579a6d7a7b7ebdf1a1272e2a3f6b (7146.0.0)
+08/17/12 00:57:31 Number of idle job procs: 1
+08/17/12 00:57:31 Of 21 nodes total:
+08/17/12 00:57:31  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:57:31   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:57:31    11       0        5       0       0          5        0
+08/17/12 00:57:31 0 job proc(s) currently held
+08/17/12 00:57:41 Currently monitoring 1 Condor log file(s)
+08/17/12 00:57:41 Event: ULOG_EXECUTE for Condor Node f270579a6d7a7b7ebdf1a1272e2a3f6b (7146.0.0)
+08/17/12 00:57:41 Number of idle job procs: 0
+08/17/12 00:57:41 Event: ULOG_JOB_TERMINATED for Condor Node f270579a6d7a7b7ebdf1a1272e2a3f6b (7146.0.0)
+08/17/12 00:57:41 Node f270579a6d7a7b7ebdf1a1272e2a3f6b job proc (7146.0.0) completed successfully.
+08/17/12 00:57:41 Node f270579a6d7a7b7ebdf1a1272e2a3f6b job completed
+08/17/12 00:57:41 Number of idle job procs: 0
+08/17/12 00:57:41 Of 21 nodes total:
+08/17/12 00:57:41  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 00:57:41   ===     ===      ===     ===     ===        ===      ===
+08/17/12 00:57:41    12       0        4       0       0          5        0
+08/17/12 00:57:41 0 job proc(s) currently held
+08/17/12 00:58:31 Currently monitoring 1 Condor log file(s)
+08/17/12 00:58:31 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 00:58:31 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 00:58:31 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 00:58:46 Currently monitoring 1 Condor log file(s)
+08/17/12 00:58:46 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 01:03:31 Currently monitoring 1 Condor log file(s)
+08/17/12 01:03:31 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 01:03:31 Event: ULOG_IMAGE_SIZE for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 01:03:31 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:03:46 Currently monitoring 1 Condor log file(s)
+08/17/12 01:03:46 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 01:06:16 Currently monitoring 1 Condor log file(s)
+08/17/12 01:06:16 Event: ULOG_JOB_TERMINATED for Condor Node 21eb7e9b5f1c3c10d4001049da1cb5ae (7089.0.0)
+08/17/12 01:06:16 Node 21eb7e9b5f1c3c10d4001049da1cb5ae job proc (7089.0.0) completed successfully.
+08/17/12 01:06:16 Node 21eb7e9b5f1c3c10d4001049da1cb5ae job completed
+08/17/12 01:06:16 Number of idle job procs: 0
+08/17/12 01:06:16 Of 21 nodes total:
+08/17/12 01:06:16  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 01:06:16   ===     ===      ===     ===     ===        ===      ===
+08/17/12 01:06:16    13       0        3       0       1          4        0
+08/17/12 01:06:16 0 job proc(s) currently held
+08/17/12 01:06:21 Sleeping for one second for log file consistency
+08/17/12 01:06:22 Submitting Condor Node 6713a7a84075c42b5db2af77cc026548 job(s)...
+08/17/12 01:06:22 submitting: condor_submit -a dag_node_name' '=' '6713a7a84075c42b5db2af77cc026548 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '6713a7a84075c42b5db2af77cc026548 -a macroid' '=' '11 -a macroarguments' '=' '-e' 'ALL_S6_959126400_hveto_channels_signif_dt_set_5_evaluation.pat' '-n' 'ALL_S6_959126400_hveto_channels_signif_dt_set_5_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_5_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat -a +DAGParentNodeNames' '=' '"21eb7e9b5f1c3c10d4001049da1cb5ae" USE_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 01:06:22 From submit: Submitting job(s).
+08/17/12 01:06:22 From submit: 1 job(s) submitted to cluster 7147.
+08/17/12 01:06:22 	assigned Condor ID (7147.0.0)
+08/17/12 01:06:22 Just submitted 1 job this cycle...
+08/17/12 01:06:22 Currently monitoring 1 Condor log file(s)
+08/17/12 01:06:22 Event: ULOG_SUBMIT for Condor Node 6713a7a84075c42b5db2af77cc026548 (7147.0.0)
+08/17/12 01:06:22 Number of idle job procs: 1
+08/17/12 01:06:22 Of 21 nodes total:
+08/17/12 01:06:22  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 01:06:22   ===     ===      ===     ===     ===        ===      ===
+08/17/12 01:06:22    13       0        4       0       0          4        0
+08/17/12 01:06:22 0 job proc(s) currently held
+08/17/12 01:06:42 Currently monitoring 1 Condor log file(s)
+08/17/12 01:06:42 Event: ULOG_EXECUTE for Condor Node 6713a7a84075c42b5db2af77cc026548 (7147.0.0)
+08/17/12 01:06:42 Number of idle job procs: 0
+08/17/12 01:06:42 Event: ULOG_IMAGE_SIZE for Condor Node 6713a7a84075c42b5db2af77cc026548 (7147.0.0)
+08/17/12 01:06:42 Event: ULOG_JOB_TERMINATED for Condor Node 6713a7a84075c42b5db2af77cc026548 (7147.0.0)
+08/17/12 01:06:42 Node 6713a7a84075c42b5db2af77cc026548 job proc (7147.0.0) completed successfully.
+08/17/12 01:06:42 Node 6713a7a84075c42b5db2af77cc026548 job completed
+08/17/12 01:06:42 Number of idle job procs: 0
+08/17/12 01:06:42 Of 21 nodes total:
+08/17/12 01:06:42  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 01:06:42   ===     ===      ===     ===     ===        ===      ===
+08/17/12 01:06:42    14       0        3       0       0          4        0
+08/17/12 01:06:42 0 job proc(s) currently held
+08/17/12 01:08:32 Currently monitoring 1 Condor log file(s)
+08/17/12 01:08:32 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 01:08:32 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:08:42 Currently monitoring 1 Condor log file(s)
+08/17/12 01:08:42 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 01:13:32 Currently monitoring 1 Condor log file(s)
+08/17/12 01:13:32 Event: ULOG_IMAGE_SIZE for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 01:13:32 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:13:42 Currently monitoring 1 Condor log file(s)
+08/17/12 01:13:42 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 01:16:32 Currently monitoring 1 Condor log file(s)
+08/17/12 01:16:32 Event: ULOG_JOB_TERMINATED for Condor Node 80dfe22eabbcda596d5e545a0831a687 (7091.0.0)
+08/17/12 01:16:32 Node 80dfe22eabbcda596d5e545a0831a687 job proc (7091.0.0) completed successfully.
+08/17/12 01:16:32 Node 80dfe22eabbcda596d5e545a0831a687 job completed
+08/17/12 01:16:32 Number of idle job procs: 0
+08/17/12 01:16:32 Of 21 nodes total:
+08/17/12 01:16:32  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 01:16:32   ===     ===      ===     ===     ===        ===      ===
+08/17/12 01:16:32    15       0        2       0       1          3        0
+08/17/12 01:16:32 0 job proc(s) currently held
+08/17/12 01:16:37 Sleeping for one second for log file consistency
+08/17/12 01:16:38 Submitting Condor Node e969a52a1eb382d90621d8ee302807e4 job(s)...
+08/17/12 01:16:38 submitting: condor_submit -a dag_node_name' '=' 'e969a52a1eb382d90621d8ee302807e4 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' 'e969a52a1eb382d90621d8ee302807e4 -a macroid' '=' '15 -a macroarguments' '=' '-e' 'ALL_S6_959126400_hveto_channels_signif_dt_set_7_evaluation.pat' '-n' 'ALL_S6_959126400_hveto_channels_signif_dt_set_7_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_7_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat -a +DAGParentNodeNames' '=' '"80dfe22eabbcda596d5e545a0831a687" USE_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 01:16:38 From submit: Submitting job(s).
+08/17/12 01:16:38 From submit: 1 job(s) submitted to cluster 7148.
+08/17/12 01:16:38 	assigned Condor ID (7148.0.0)
+08/17/12 01:16:38 Just submitted 1 job this cycle...
+08/17/12 01:16:38 Currently monitoring 1 Condor log file(s)
+08/17/12 01:16:38 Event: ULOG_SUBMIT for Condor Node e969a52a1eb382d90621d8ee302807e4 (7148.0.0)
+08/17/12 01:16:38 Number of idle job procs: 1
+08/17/12 01:16:38 Of 21 nodes total:
+08/17/12 01:16:38  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 01:16:38   ===     ===      ===     ===     ===        ===      ===
+08/17/12 01:16:38    15       0        3       0       0          3        0
+08/17/12 01:16:38 0 job proc(s) currently held
+08/17/12 01:16:43 Currently monitoring 1 Condor log file(s)
+08/17/12 01:16:43 Event: ULOG_EXECUTE for Condor Node e969a52a1eb382d90621d8ee302807e4 (7148.0.0)
+08/17/12 01:16:43 Number of idle job procs: 0
+08/17/12 01:16:43 Event: ULOG_JOB_TERMINATED for Condor Node e969a52a1eb382d90621d8ee302807e4 (7148.0.0)
+08/17/12 01:16:43 Node e969a52a1eb382d90621d8ee302807e4 job proc (7148.0.0) completed successfully.
+08/17/12 01:16:43 Node e969a52a1eb382d90621d8ee302807e4 job completed
+08/17/12 01:16:43 Number of idle job procs: 0
+08/17/12 01:16:43 Of 21 nodes total:
+08/17/12 01:16:43  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 01:16:43   ===     ===      ===     ===     ===        ===      ===
+08/17/12 01:16:43    16       0        2       0       0          3        0
+08/17/12 01:16:43 0 job proc(s) currently held
+08/17/12 01:18:33 Currently monitoring 1 Condor log file(s)
+08/17/12 01:18:33 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:18:43 Currently monitoring 1 Condor log file(s)
+08/17/12 01:18:43 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 01:23:33 Currently monitoring 1 Condor log file(s)
+08/17/12 01:23:33 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:23:43 Currently monitoring 1 Condor log file(s)
+08/17/12 01:23:43 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 01:28:33 Currently monitoring 1 Condor log file(s)
+08/17/12 01:28:33 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:28:43 Currently monitoring 1 Condor log file(s)
+08/17/12 01:28:43 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 01:33:33 Currently monitoring 1 Condor log file(s)
+08/17/12 01:33:33 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:33:43 Currently monitoring 1 Condor log file(s)
+08/17/12 01:33:43 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 01:38:33 Currently monitoring 1 Condor log file(s)
+08/17/12 01:38:33 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:38:43 Currently monitoring 1 Condor log file(s)
+08/17/12 01:38:43 Event: ULOG_IMAGE_SIZE for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 01:42:38 Currently monitoring 1 Condor log file(s)
+08/17/12 01:42:38 Event: ULOG_JOB_TERMINATED for Condor Node 06bd3e091757e656cdac5e61714fffd0 (7087.0.0)
+08/17/12 01:42:38 Node 06bd3e091757e656cdac5e61714fffd0 job proc (7087.0.0) completed successfully.
+08/17/12 01:42:38 Node 06bd3e091757e656cdac5e61714fffd0 job completed
+08/17/12 01:42:38 Number of idle job procs: 0
+08/17/12 01:42:38 Of 21 nodes total:
+08/17/12 01:42:38  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 01:42:38   ===     ===      ===     ===     ===        ===      ===
+08/17/12 01:42:38    17       0        1       0       1          2        0
+08/17/12 01:42:38 0 job proc(s) currently held
+08/17/12 01:42:43 Sleeping for one second for log file consistency
+08/17/12 01:42:44 Submitting Condor Node 6daab9ec903a1be8c88e76c96183ce5a job(s)...
+08/17/12 01:42:44 submitting: condor_submit -a dag_node_name' '=' '6daab9ec903a1be8c88e76c96183ce5a -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '6daab9ec903a1be8c88e76c96183ce5a -a macroid' '=' '9 -a macroarguments' '=' '-e' 'ALL_S6_959126400_hveto_channels_signif_dt_set_4_evaluation.pat' '-n' 'ALL_S6_959126400_hveto_channels_signif_dt_set_4_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_4_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat -a +DAGParentNodeNames' '=' '"06bd3e091757e656cdac5e61714fffd0" USE_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 01:42:44 From submit: Submitting job(s).
+08/17/12 01:42:44 From submit: 1 job(s) submitted to cluster 7149.
+08/17/12 01:42:44 	assigned Condor ID (7149.0.0)
+08/17/12 01:42:44 Just submitted 1 job this cycle...
+08/17/12 01:42:44 Currently monitoring 1 Condor log file(s)
+08/17/12 01:42:44 Event: ULOG_SUBMIT for Condor Node 6daab9ec903a1be8c88e76c96183ce5a (7149.0.0)
+08/17/12 01:42:44 Number of idle job procs: 1
+08/17/12 01:42:44 Of 21 nodes total:
+08/17/12 01:42:44  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 01:42:44   ===     ===      ===     ===     ===        ===      ===
+08/17/12 01:42:44    17       0        2       0       0          2        0
+08/17/12 01:42:44 0 job proc(s) currently held
+08/17/12 01:42:49 Currently monitoring 1 Condor log file(s)
+08/17/12 01:42:49 Event: ULOG_EXECUTE for Condor Node 6daab9ec903a1be8c88e76c96183ce5a (7149.0.0)
+08/17/12 01:42:49 Number of idle job procs: 0
+08/17/12 01:42:49 Event: ULOG_JOB_TERMINATED for Condor Node 6daab9ec903a1be8c88e76c96183ce5a (7149.0.0)
+08/17/12 01:42:49 Node 6daab9ec903a1be8c88e76c96183ce5a job proc (7149.0.0) completed successfully.
+08/17/12 01:42:49 Node 6daab9ec903a1be8c88e76c96183ce5a job completed
+08/17/12 01:42:49 Number of idle job procs: 0
+08/17/12 01:42:49 Of 21 nodes total:
+08/17/12 01:42:49  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 01:42:49   ===     ===      ===     ===     ===        ===      ===
+08/17/12 01:42:49    18       0        1       0       0          2        0
+08/17/12 01:42:49 0 job proc(s) currently held
+08/17/12 01:43:34 Currently monitoring 1 Condor log file(s)
+08/17/12 01:43:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:48:34 Currently monitoring 1 Condor log file(s)
+08/17/12 01:48:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:53:34 Currently monitoring 1 Condor log file(s)
+08/17/12 01:53:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 01:58:34 Currently monitoring 1 Condor log file(s)
+08/17/12 01:58:34 Event: ULOG_IMAGE_SIZE for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 02:03:29 Currently monitoring 1 Condor log file(s)
+08/17/12 02:03:29 Event: ULOG_JOB_TERMINATED for Condor Node 384c43a06cff58b41ebeab3a4176c622 (7090.0.0)
+08/17/12 02:03:29 Node 384c43a06cff58b41ebeab3a4176c622 job proc (7090.0.0) completed successfully.
+08/17/12 02:03:29 Node 384c43a06cff58b41ebeab3a4176c622 job completed
+08/17/12 02:03:29 Number of idle job procs: 0
+08/17/12 02:03:29 Of 21 nodes total:
+08/17/12 02:03:29  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 02:03:29   ===     ===      ===     ===     ===        ===      ===
+08/17/12 02:03:29    19       0        0       0       1          1        0
+08/17/12 02:03:29 0 job proc(s) currently held
+08/17/12 02:03:34 Sleeping for one second for log file consistency
+08/17/12 02:03:35 Submitting Condor Node 3a02ad390e489a2193034ecc412b89d5 job(s)...
+08/17/12 02:03:35 submitting: condor_submit -a dag_node_name' '=' '3a02ad390e489a2193034ecc412b89d5 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '3a02ad390e489a2193034ecc412b89d5 -a macroid' '=' '13 -a macroarguments' '=' '-e' 'ALL_S6_959126400_hveto_channels_signif_dt_set_6_evaluation.pat' '-n' 'ALL_S6_959126400_hveto_channels_signif_dt_set_6_training_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.net' '-s' 'ALL_S6_959126400_hveto_channels_signif_dt_set_6_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat -a +DAGParentNodeNames' '=' '"384c43a06cff58b41ebeab3a4176c622" USE_NETWORK_ALL_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 02:03:35 From submit: Submitting job(s).
+08/17/12 02:03:35 From submit: 1 job(s) submitted to cluster 7162.
+08/17/12 02:03:35 	assigned Condor ID (7162.0.0)
+08/17/12 02:03:35 Just submitted 1 job this cycle...
+08/17/12 02:03:35 Currently monitoring 1 Condor log file(s)
+08/17/12 02:03:35 Event: ULOG_SUBMIT for Condor Node 3a02ad390e489a2193034ecc412b89d5 (7162.0.0)
+08/17/12 02:03:35 Number of idle job procs: 1
+08/17/12 02:03:35 Of 21 nodes total:
+08/17/12 02:03:35  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 02:03:35   ===     ===      ===     ===     ===        ===      ===
+08/17/12 02:03:35    19       0        1       0       0          1        0
+08/17/12 02:03:35 0 job proc(s) currently held
+08/17/12 02:03:55 Currently monitoring 1 Condor log file(s)
+08/17/12 02:03:55 Event: ULOG_EXECUTE for Condor Node 3a02ad390e489a2193034ecc412b89d5 (7162.0.0)
+08/17/12 02:03:55 Number of idle job procs: 0
+08/17/12 02:03:55 Event: ULOG_JOB_TERMINATED for Condor Node 3a02ad390e489a2193034ecc412b89d5 (7162.0.0)
+08/17/12 02:03:55 Node 3a02ad390e489a2193034ecc412b89d5 job proc (7162.0.0) completed successfully.
+08/17/12 02:03:55 Node 3a02ad390e489a2193034ecc412b89d5 job completed
+08/17/12 02:03:55 Number of idle job procs: 0
+08/17/12 02:03:55 Of 21 nodes total:
+08/17/12 02:03:55  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 02:03:55   ===     ===      ===     ===     ===        ===      ===
+08/17/12 02:03:55    20       0        0       0       1          0        0
+08/17/12 02:03:55 0 job proc(s) currently held
+08/17/12 02:04:00 Sleeping for one second for log file consistency
+08/17/12 02:04:01 Submitting Condor Node 01e83f009002c294a21b40cf35154958 job(s)...
+08/17/12 02:04:01 WARNING: node 01e83f009002c294a21b40cf35154958 has too many parents to list in its classad; leaving its DAGParentNodeNames attribute undefined
+08/17/12 02:04:01 submitting: condor_submit -a dag_node_name' '=' '01e83f009002c294a21b40cf35154958 -a +DAGManJobId' '=' '7082 -a DAGManJobId' '=' '7082 -a submit_event_notes' '=' 'DAG' 'Node:' '01e83f009002c294a21b40cf35154958 -a macrotag' '=' 'ALL_S6_959126400_hveto_channels_signif_dt_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000 -a macroid' '=' '20 -a macrooutputdir' '=' 'gann_results_plots -a macroplotrankvssignificance' '=' ' -a macroarguments' '=' 'ALL_S6_959126400_hveto_channels_signif_dt_set_0_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat' 'ALL_S6_959126400_hveto_channels_signif_dt_set_1_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat' 'ALL_S6_959126400_hveto_channels_signif_dt_set_2_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat' 'ALL_S6_959126400_hveto_channels_signif_dt_set_3_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat' 'ALL_S6_959126400_hveto_channels_signif_dt_set_4_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat' 'ALL_S6_959126400_hveto_channels_signif_dt_set_5_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat' 'ALL_S6_959126400_hveto_channels_signif_dt_set_6_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat' 'ALL_S6_959126400_hveto_channels_signif_dt_set_7_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat' 'ALL_S6_959126400_hveto_channels_signif_dt_set_8_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat' 'ALL_S6_959126400_hveto_channels_signif_dt_set_9_evaluation_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.dat RESULT_PLOTS_n70n10n1_c10_mr02_p10000_g100_rmin-25_rmax25_gsigma1_y1001_z05_f05g09_m8000.sub
+08/17/12 02:04:01 From submit: Submitting job(s).
+08/17/12 02:04:01 From submit: 1 job(s) submitted to cluster 7163.
+08/17/12 02:04:01 	assigned Condor ID (7163.0.0)
+08/17/12 02:04:01 Just submitted 1 job this cycle...
+08/17/12 02:04:01 Currently monitoring 1 Condor log file(s)
+08/17/12 02:04:01 Event: ULOG_SUBMIT for Condor Node 01e83f009002c294a21b40cf35154958 (7163.0.0)
+08/17/12 02:04:01 Number of idle job procs: 1
+08/17/12 02:04:01 Of 21 nodes total:
+08/17/12 02:04:01  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 02:04:01   ===     ===      ===     ===     ===        ===      ===
+08/17/12 02:04:01    20       0        1       0       0          0        0
+08/17/12 02:04:01 0 job proc(s) currently held
+08/17/12 02:04:16 Currently monitoring 1 Condor log file(s)
+08/17/12 02:04:16 Event: ULOG_EXECUTE for Condor Node 01e83f009002c294a21b40cf35154958 (7163.0.0)
+08/17/12 02:04:16 Number of idle job procs: 0
+08/17/12 02:04:21 Currently monitoring 1 Condor log file(s)
+08/17/12 02:04:21 Event: ULOG_IMAGE_SIZE for Condor Node 01e83f009002c294a21b40cf35154958 (7163.0.0)
+08/17/12 02:04:21 Event: ULOG_JOB_TERMINATED for Condor Node 01e83f009002c294a21b40cf35154958 (7163.0.0)
+08/17/12 02:04:21 Node 01e83f009002c294a21b40cf35154958 job proc (7163.0.0) completed successfully.
+08/17/12 02:04:21 Node 01e83f009002c294a21b40cf35154958 job completed
+08/17/12 02:04:21 Number of idle job procs: 0
+08/17/12 02:04:21 Of 21 nodes total:
+08/17/12 02:04:21  Done     Pre   Queued    Post   Ready   Un-Ready   Failed
+08/17/12 02:04:21   ===     ===      ===     ===     ===        ===      ===
+08/17/12 02:04:21    21       0        0       0       0          0        0
+08/17/12 02:04:21 0 job proc(s) currently held
+08/17/12 02:04:21 All jobs Completed!
+08/17/12 02:04:21 Note: 0 total job deferrals because of -MaxJobs limit (0)
+08/17/12 02:04:21 Note: 0 total job deferrals because of -MaxIdle limit (0)
+08/17/12 02:04:21 Note: 0 total job deferrals because of node category throttles
+08/17/12 02:04:21 Note: 0 total PRE script deferrals because of -MaxPre limit (0)
+08/17/12 02:04:21 Note: 0 total POST script deferrals because of -MaxPost limit (0)
+08/17/12 02:04:21 **** condor_scheduniv_exec.7082.0 (condor_DAGMAN) pid 29516 EXITING WITH STATUS 0

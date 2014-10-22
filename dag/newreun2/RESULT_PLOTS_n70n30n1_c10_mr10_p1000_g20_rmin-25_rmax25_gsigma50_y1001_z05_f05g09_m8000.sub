@@ -1,0 +1,10 @@
+universe = vanilla
+executable = GAnnROC.py
+arguments = " --tag $(macrotag) --plot-rank-vs-significance $(macroplotrankvssignificance) --output-dir $(macrooutputdir) $(macroarguments) "
+environment = KMP_LIBRARY=serial;MKL_SERIAL=yes
+getenv = True
+log = /tmp/tmpr1uxcb
+error = logs/RESULT_PLOTS_n70n30n1_c10_mr10_p1000_g20_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000_n70n30n1_c10_mr10_p1000_g20_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000-$(macroid)-$(process).err
+output = logs/RESULT_PLOTS_n70n30n1_c10_mr10_p1000_g20_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000_n70n30n1_c10_mr10_p1000_g20_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000-$(macroid)-$(process).out
+notification = never
+queue 1

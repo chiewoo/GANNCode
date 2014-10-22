@@ -1,0 +1,114 @@
+Creating network.
+The layer structure is following:
+[70, 35, 1]
+Setting newtork parameters
+Getting training data : ALL_S6_959126400_hveto_channels_signif_dt_set_4_training.pat
+Setting GA training parameters
+Start running GA
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [17.63(38.51)/13.01(1.03)/14.69(14.69)]
+Gen. 1 (50.00%): Max/Min/Avg Fitness(Raw) [46.21(38.51)/46.21(38.51)/46.21(38.51)]
+Gen. 2 (100.00%): Max/Min/Avg Fitness(Raw) [46.21(38.51)/46.21(38.51)/46.21(38.51)]
+Total time elapsed: 3132.972 seconds.
+GA MSE : 0.025970
+Best initial connection wetighs are set on Network
+Setting FANN training parameters
+Input layer                          :  70 neurons, 1 bias
+  Hidden layer                       :  35 neurons, 1 bias
+Output layer                         :   1 neurons
+Total neurons and biases             : 108
+Total connections                    :2521
+Connection rate                      :   1.000
+Network type                         :   FANN_NETTYPE_LAYER
+Training algorithm                   :   FANN_TRAIN_RPROP
+Training error function              :   FANN_ERRORFUNC_TANH
+Training stop function               :   FANN_STOPFUNC_MSE
+Bit fail limit                       :   0.350
+Learning rate                        :   0.700
+Learning momentum                    :   0.000
+Quickprop decay                      :  -0.000100
+Quickprop mu                         :   1.750
+RPROP increase factor                :   1.400
+RPROP decrease factor                :   0.500
+RPROP delta min                      :   0.000
+RPROP delta max                      :  50.000
+Cascade output change fraction       :   0.010000
+Cascade candidate change fraction    :   0.010000
+Cascade output stagnation epochs     :  12
+Cascade candidate stagnation epochs  :  12
+Cascade max output epochs            : 150
+Cascade max candidate epochs         : 150
+Cascade weight multiplier            :   0.400
+Cascade candidate limit              :1000.000
+Cascade activation functions[0]      :   FANN_SIGMOID
+Cascade activation functions[1]      :   FANN_SIGMOID_SYMMETRIC
+Cascade activation functions[2]      :   FANN_GAUSSIAN
+Cascade activation functions[3]      :   FANN_GAUSSIAN_SYMMETRIC
+Cascade activation functions[4]      :   FANN_ELLIOT
+Cascade activation functions[5]      :   FANN_ELLIOT_SYMMETRIC
+Cascade activation functions[6]      :   FANN_SIN_SYMMETRIC
+Cascade activation functions[7]      :   FANN_COS_SYMMETRIC
+Cascade activation functions[8]      :   FANN_SIN
+Cascade activation functions[9]      :   FANN_COS
+Cascade activation steepnesses[0]    :   0.250
+Cascade activation steepnesses[1]    :   0.500
+Cascade activation steepnesses[2]    :   0.750
+Cascade activation steepnesses[3]    :   1.000
+Cascade candidate groups             :   2
+Cascade no. of candidates            :  80
+Start training network with 2-algorithm in FANN
+Max epochs     5000. Desired error: 0.0010000000.
+Epochs            1. Current error: 0.0259695370. Bit fail 457.
+Epochs          100. Current error: 0.0172801521. Bit fail 323.
+Epochs          200. Current error: 0.0161019564. Bit fail 297.
+Epochs          300. Current error: 0.0154432300. Bit fail 289.
+Epochs          400. Current error: 0.0154919596. Bit fail 296.
+Epochs          500. Current error: 0.0153517574. Bit fail 298.
+Epochs          600. Current error: 0.0155693619. Bit fail 304.
+Epochs          700. Current error: 0.0157243330. Bit fail 304.
+Epochs          800. Current error: 0.0156798195. Bit fail 306.
+Epochs          900. Current error: 0.0156205362. Bit fail 306.
+Epochs         1000. Current error: 0.0155792786. Bit fail 305.
+Epochs         1100. Current error: 0.0157778878. Bit fail 311.
+Epochs         1200. Current error: 0.0154116880. Bit fail 301.
+Epochs         1300. Current error: 0.0153626176. Bit fail 301.
+Epochs         1400. Current error: 0.0151553014. Bit fail 281.
+Epochs         1500. Current error: 0.0149485637. Bit fail 283.
+Epochs         1600. Current error: 0.0148858735. Bit fail 277.
+Epochs         1700. Current error: 0.0148203280. Bit fail 276.
+Epochs         1800. Current error: 0.0148224141. Bit fail 276.
+Epochs         1900. Current error: 0.0152053125. Bit fail 286.
+Epochs         2000. Current error: 0.0148497066. Bit fail 275.
+Epochs         2100. Current error: 0.0147357583. Bit fail 276.
+Epochs         2200. Current error: 0.0148431044. Bit fail 278.
+Epochs         2300. Current error: 0.0150113432. Bit fail 283.
+Epochs         2400. Current error: 0.0148177715. Bit fail 279.
+Epochs         2500. Current error: 0.0149231805. Bit fail 281.
+Epochs         2600. Current error: 0.0148318280. Bit fail 278.
+Epochs         2700. Current error: 0.0149596762. Bit fail 280.
+Epochs         2800. Current error: 0.0148523943. Bit fail 278.
+Epochs         2900. Current error: 0.0148067977. Bit fail 275.
+Epochs         3000. Current error: 0.0148036946. Bit fail 276.
+Epochs         3100. Current error: 0.0147973755. Bit fail 275.
+Epochs         3200. Current error: 0.0147861671. Bit fail 276.
+Epochs         3300. Current error: 0.0148493275. Bit fail 277.
+Epochs         3400. Current error: 0.0148709109. Bit fail 277.
+Epochs         3500. Current error: 0.0148055153. Bit fail 277.
+Epochs         3600. Current error: 0.0147810141. Bit fail 275.
+Epochs         3700. Current error: 0.0147556737. Bit fail 276.
+Epochs         3800. Current error: 0.0148777235. Bit fail 278.
+Epochs         3900. Current error: 0.0148574440. Bit fail 277.
+Epochs         4000. Current error: 0.0147692161. Bit fail 274.
+Epochs         4100. Current error: 0.0149051808. Bit fail 278.
+Epochs         4200. Current error: 0.0149514135. Bit fail 277.
+Epochs         4300. Current error: 0.0147881964. Bit fail 276.
+Epochs         4400. Current error: 0.0148173701. Bit fail 277.
+Epochs         4500. Current error: 0.0149220768. Bit fail 282.
+Epochs         4600. Current error: 0.0149228694. Bit fail 281.
+Epochs         4700. Current error: 0.0151857007. Bit fail 287.
+Epochs         4800. Current error: 0.0152946170. Bit fail 286.
+Epochs         4900. Current error: 0.0150615852. Bit fail 286.
+Epochs         5000. Current error: 0.0148464935. Bit fail 282.
+Time elpased for FANN training: 925.745181 seconds
+Trained Network by GA+FANN is saved in 
+./ALL_S6_959126400_hveto_channels_signif_dt_set_4_training_n70n35n1_c10_mr08_p10000_g2_rmin-50_rmax50_gsigma1_y14_f05g09_m5000.net.
+Total Running Time: 4059.324924 seconds

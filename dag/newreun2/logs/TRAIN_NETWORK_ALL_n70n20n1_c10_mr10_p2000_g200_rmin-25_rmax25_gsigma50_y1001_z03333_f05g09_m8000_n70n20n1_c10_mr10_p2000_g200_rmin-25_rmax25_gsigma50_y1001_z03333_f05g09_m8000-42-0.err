@@ -1,0 +1,15 @@
+FANN Error 1: Unable to open configuration file "ALL_S6_959126400_hveto_channels_signif_dt_set_21_training.ann" for reading.
+Traceback (most recent call last):
+  File "/data2/johnoh/pyevolve/dag/newreun2/GAnnTrainFile.py", line 122, in <module>
+    ga.evolve(freq_stats=1)
+  File "/home/johnoh/data2/pyevolve/GAnnGA.py", line 128, in evolve
+    self.internalPop.evaluate(network=self.neuralNet,data=self.trainData)
+  File "build/bdist.linux-x86_64/egg/pyevolve/GPopulation.py", line 378, in evaluate
+    ind.evaluate(**args)
+  File "build/bdist.linux-x86_64/egg/pyevolve/GenomeBase.py", line 138, in evaluate
+    for it in self.evaluator.applyFunctions(self, **args):
+  File "build/bdist.linux-x86_64/egg/pyevolve/FunctionSlot.py", line 180, in applyFunctions
+    yield f(obj, **args)
+  File "/home/johnoh/data2/pyevolve/GAnnMutators.py", line 120, in evaluateMSE
+    return float(1)/(MSE)#+GAnnConsts.CDefMSETolerance)
+ZeroDivisionError: float division by zero

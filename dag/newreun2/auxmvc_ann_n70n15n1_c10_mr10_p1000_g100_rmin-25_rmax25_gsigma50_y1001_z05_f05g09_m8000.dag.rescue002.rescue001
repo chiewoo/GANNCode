@@ -1,0 +1,253 @@
+# Rescue DAG file, created after running
+#   the auxmvc_ann_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dag.rescue002 DAG file
+# Created 8/27/2012 07:53:43 UTC
+#
+# Total number of Nodes: 61
+# Nodes premarked DONE: 20
+# Nodes that failed: 4
+#   93b28cd4bc0c483c5851a76ddd32c66e,6860472cdf3aec1258704fcdf1d610dc,65cc6031708d5f8e7291a6e6ddfba9aa,9c0971d9693e40d6ae21fd8e2fa4b357,<ENDLIST>
+
+JOB 039f253c5181905904a6475feef9b0bb TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS 039f253c5181905904a6475feef9b0bb macroid="0" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_0_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_0_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 20e64ed9c5fc450daaade8c4b583cd42 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS 20e64ed9c5fc450daaade8c4b583cd42 macroid="1" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_0_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_0_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_0_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB d075655a5e6150d7424185e9fb3ff62d TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS d075655a5e6150d7424185e9fb3ff62d macroid="2" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_1_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_1_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 56cb701964900e38fadffb3614ca9f85 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS 56cb701964900e38fadffb3614ca9f85 macroid="3" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_1_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_1_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_1_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB f2af123b22dbddbb2a4dad496b2ede8b TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS f2af123b22dbddbb2a4dad496b2ede8b macroid="4" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_2_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_2_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 33aef2a99f50653d226bc4cda9f4f8a3 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS 33aef2a99f50653d226bc4cda9f4f8a3 macroid="5" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_2_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_2_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_2_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB d9abc0a850a5088a40ef0ac97669b545 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS d9abc0a850a5088a40ef0ac97669b545 macroid="6" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_3_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_3_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 779cee9ae768eadc985a418e8ef61a1d USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS 779cee9ae768eadc985a418e8ef61a1d macroid="7" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_3_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_3_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_3_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB cd39e42146145ca39b1efc2213128756 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS cd39e42146145ca39b1efc2213128756 macroid="8" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_4_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_4_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB d2d23f13a96af32a8b49f7a7f9c4e82c USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS d2d23f13a96af32a8b49f7a7f9c4e82c macroid="9" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_4_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_4_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_4_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 1187898c7e53a4fe837431c34cf61a8a TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS 1187898c7e53a4fe837431c34cf61a8a macroid="10" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_5_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_5_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB c7eb854e312835ec08edaa3952285320 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS c7eb854e312835ec08edaa3952285320 macroid="11" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_5_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_5_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_5_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 29f78d393f96d2944ee58910b464bbbb TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS 29f78d393f96d2944ee58910b464bbbb macroid="12" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_6_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_6_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB d931b4e8f3a100f392444c0cc63d4f2d USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS d931b4e8f3a100f392444c0cc63d4f2d macroid="13" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_6_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_6_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_6_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB c6a58e5b800003006c6058becafdc354 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS c6a58e5b800003006c6058becafdc354 macroid="14" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_7_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_7_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB a7006db1aab5e59c056cd0878101a3d3 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS a7006db1aab5e59c056cd0878101a3d3 macroid="15" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_7_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_7_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_7_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 4b3b2ce287b5a1f7099ccff5d7919b61 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS 4b3b2ce287b5a1f7099ccff5d7919b61 macroid="16" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_8_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_8_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB e47577552bd599c3e302810f5f68cfb1 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS e47577552bd599c3e302810f5f68cfb1 macroid="17" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_8_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_8_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_8_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 957f7fe149577639b868d4bd5976d473 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS 957f7fe149577639b868d4bd5976d473 macroid="18" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_9_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_9_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 61e84a4aaadccb392f139637504d671a USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub DONE
+VARS 61e84a4aaadccb392f139637504d671a macroid="19" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_9_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_9_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_9_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 93b28cd4bc0c483c5851a76ddd32c66e TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 93b28cd4bc0c483c5851a76ddd32c66e macroid="20" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_10_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_10_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 4862bc67584db23e50ec28df7a4a7133 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 4862bc67584db23e50ec28df7a4a7133 macroid="21" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_10_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_10_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_10_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 6860472cdf3aec1258704fcdf1d610dc TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 6860472cdf3aec1258704fcdf1d610dc macroid="22" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_11_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_11_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 4724998517bb9ed7d6f9ebf06482dccc USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 4724998517bb9ed7d6f9ebf06482dccc macroid="23" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_11_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_11_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_11_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 65cc6031708d5f8e7291a6e6ddfba9aa TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 65cc6031708d5f8e7291a6e6ddfba9aa macroid="24" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_12_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_12_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 50467e29de0e87b4dc8eb9e1231b3aa6 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 50467e29de0e87b4dc8eb9e1231b3aa6 macroid="25" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_12_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_12_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_12_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 9c0971d9693e40d6ae21fd8e2fa4b357 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 9c0971d9693e40d6ae21fd8e2fa4b357 macroid="26" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_13_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_13_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 66d218a659a49de8c90a5e3d03052858 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 66d218a659a49de8c90a5e3d03052858 macroid="27" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_13_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_13_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_13_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 91e3142faaf4108e21ce2e943283d615 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 91e3142faaf4108e21ce2e943283d615 macroid="28" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_14_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_14_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB e949b2fa00228d109107f3249b57b16f USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS e949b2fa00228d109107f3249b57b16f macroid="29" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_14_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_14_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_14_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB aec5419257c597cfe5431d6dd248c9fc TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS aec5419257c597cfe5431d6dd248c9fc macroid="30" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_15_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_15_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB a697951e74b4c460c1b45e29e6614217 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS a697951e74b4c460c1b45e29e6614217 macroid="31" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_15_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_15_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_15_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 00863806e13d9ff345e0f7f4beba55e1 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 00863806e13d9ff345e0f7f4beba55e1 macroid="32" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_16_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_16_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 2e21901ce45d910b33d164663973a5ab USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 2e21901ce45d910b33d164663973a5ab macroid="33" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_16_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_16_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_16_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB c7512b2f4d3fdb7e218135644dbd8db6 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS c7512b2f4d3fdb7e218135644dbd8db6 macroid="34" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_17_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_17_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB a181beb6af151c38a52a22e7f52d0dae USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS a181beb6af151c38a52a22e7f52d0dae macroid="35" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_17_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_17_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_17_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB ca0d25ff905b05e5dbb7aabe874d577c TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS ca0d25ff905b05e5dbb7aabe874d577c macroid="36" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_18_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_18_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 696b92e1a62e1942f4d71cd2b7201856 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 696b92e1a62e1942f4d71cd2b7201856 macroid="37" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_18_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_18_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_18_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 56ee11dda076161752804ce019eafab2 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 56ee11dda076161752804ce019eafab2 macroid="38" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_19_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_19_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB ca8370abd4f6a125c5ec362d88c2cc66 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS ca8370abd4f6a125c5ec362d88c2cc66 macroid="39" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_19_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_19_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_19_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 648ef878e3dde378b6fa3bf9457acf40 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 648ef878e3dde378b6fa3bf9457acf40 macroid="40" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_20_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_20_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB fcca991778ec2821290d2ebc5fba6c77 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS fcca991778ec2821290d2ebc5fba6c77 macroid="41" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_20_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_20_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_20_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB a1580a88012f4cacc1ee22afc541d826 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS a1580a88012f4cacc1ee22afc541d826 macroid="42" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_21_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_21_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB fd524473c9ee63d3e7218a1a393c5b9d USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS fd524473c9ee63d3e7218a1a393c5b9d macroid="43" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_21_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_21_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_21_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 52dba0c9065e128596aafc3bf159ad5f TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 52dba0c9065e128596aafc3bf159ad5f macroid="44" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_22_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_22_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 41fd55ab72428cb53aad46204c35fec6 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 41fd55ab72428cb53aad46204c35fec6 macroid="45" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_22_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_22_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_22_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 75619fd3825dd0c9f8101b7dd6f33086 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 75619fd3825dd0c9f8101b7dd6f33086 macroid="46" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_23_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_23_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 3c99de3f93ebd670ec49d84621e56047 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 3c99de3f93ebd670ec49d84621e56047 macroid="47" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_23_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_23_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_23_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB f395da9807564700c09201cce08a2ee8 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS f395da9807564700c09201cce08a2ee8 macroid="48" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_24_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_24_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 85b528b51b54255b686f7541ae7654a5 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 85b528b51b54255b686f7541ae7654a5 macroid="49" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_24_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_24_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_24_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 33a6f7ada4c78d22010f2273bca13a71 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 33a6f7ada4c78d22010f2273bca13a71 macroid="50" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_25_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_25_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 9182f3cac12f8e6ad32d3a733fb3b7c1 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 9182f3cac12f8e6ad32d3a733fb3b7c1 macroid="51" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_25_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_25_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_25_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB e3d206bb2f7bdcbc1e402163109ad528 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS e3d206bb2f7bdcbc1e402163109ad528 macroid="52" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_26_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_26_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB ba5aefdfb2555bc5c7de380bde57b375 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS ba5aefdfb2555bc5c7de380bde57b375 macroid="53" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_26_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_26_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_26_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB a47c4ca6ba853e7994ad979d7426b293 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS a47c4ca6ba853e7994ad979d7426b293 macroid="54" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_27_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_27_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB db2eef73bb1a471228c7b5d22bbfe6ee USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS db2eef73bb1a471228c7b5d22bbfe6ee macroid="55" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_27_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_27_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_27_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB dfd50f9bfe88da5881fed7c712013856 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS dfd50f9bfe88da5881fed7c712013856 macroid="56" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_28_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_28_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 234c5a925bb0c25485c6f8b05632c545 USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 234c5a925bb0c25485c6f8b05632c545 macroid="57" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_28_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_28_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_28_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB dd2eda5a30bc89fdc5b50c4fb77f1268 TRAIN_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS dd2eda5a30bc89fdc5b50c4fb77f1268 macroid="58" macroarguments="-t ALL_S6_959126400_hveto_channels_signif_dt_set_29_training.pat -s ALL_S6_959126400_hveto_channels_signif_dt_set_29_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -n 70,15,1 -m 8000 -w -0.100000 -x 0.100000 -y 1.001000 -z 0.500000 -a 0.000000 -b 50.000000 -f 0.500000 -g 0.900000 --connection-rate 1.000000 --mutation-rate 1.000000 --generations 100 --population 1000 --range-min -25.000000 --range-max 25.000000 --gauss-mu 0.000000 --gauss-sigma 50.000000 --hidden-activation SIGMOID_STEPWISE --output-activation SIGMOID_STEPWISE"
+
+JOB 3156887663e8be8e04cbe9a294ac9cac USE_NETWORK_ALL_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 3156887663e8be8e04cbe9a294ac9cac macroid="59" macroarguments="-e ALL_S6_959126400_hveto_channels_signif_dt_set_29_evaluation.pat -n ALL_S6_959126400_hveto_channels_signif_dt_set_29_training_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.net -s ALL_S6_959126400_hveto_channels_signif_dt_set_29_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+JOB 539a1a6b2a8403bbc0e954830dfc6a7d RESULT_PLOTS_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.sub 
+VARS 539a1a6b2a8403bbc0e954830dfc6a7d macrotag="ALL_S6_959126400_hveto_channels_signif_dt_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000" macroid="60" macrooutputdir="gann_results_plots" macroplotrankvssignificance="" macroarguments="ALL_S6_959126400_hveto_channels_signif_dt_set_0_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_1_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_2_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_3_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_4_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_5_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_6_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_7_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_8_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_9_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_10_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_11_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_12_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_13_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_14_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_15_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_16_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_17_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_18_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_19_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_20_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_21_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_22_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_23_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_24_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_25_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_26_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_27_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_28_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat ALL_S6_959126400_hveto_channels_signif_dt_set_29_evaluation_n70n15n1_c10_mr10_p1000_g100_rmin-25_rmax25_gsigma50_y1001_z05_f05g09_m8000.dat"
+
+
+PARENT 039f253c5181905904a6475feef9b0bb CHILD 20e64ed9c5fc450daaade8c4b583cd42
+PARENT 20e64ed9c5fc450daaade8c4b583cd42 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT d075655a5e6150d7424185e9fb3ff62d CHILD 56cb701964900e38fadffb3614ca9f85
+PARENT 56cb701964900e38fadffb3614ca9f85 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT f2af123b22dbddbb2a4dad496b2ede8b CHILD 33aef2a99f50653d226bc4cda9f4f8a3
+PARENT 33aef2a99f50653d226bc4cda9f4f8a3 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT d9abc0a850a5088a40ef0ac97669b545 CHILD 779cee9ae768eadc985a418e8ef61a1d
+PARENT 779cee9ae768eadc985a418e8ef61a1d CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT cd39e42146145ca39b1efc2213128756 CHILD d2d23f13a96af32a8b49f7a7f9c4e82c
+PARENT d2d23f13a96af32a8b49f7a7f9c4e82c CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 1187898c7e53a4fe837431c34cf61a8a CHILD c7eb854e312835ec08edaa3952285320
+PARENT c7eb854e312835ec08edaa3952285320 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 29f78d393f96d2944ee58910b464bbbb CHILD d931b4e8f3a100f392444c0cc63d4f2d
+PARENT d931b4e8f3a100f392444c0cc63d4f2d CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT c6a58e5b800003006c6058becafdc354 CHILD a7006db1aab5e59c056cd0878101a3d3
+PARENT a7006db1aab5e59c056cd0878101a3d3 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 4b3b2ce287b5a1f7099ccff5d7919b61 CHILD e47577552bd599c3e302810f5f68cfb1
+PARENT e47577552bd599c3e302810f5f68cfb1 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 957f7fe149577639b868d4bd5976d473 CHILD 61e84a4aaadccb392f139637504d671a
+PARENT 61e84a4aaadccb392f139637504d671a CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 93b28cd4bc0c483c5851a76ddd32c66e CHILD 4862bc67584db23e50ec28df7a4a7133
+PARENT 4862bc67584db23e50ec28df7a4a7133 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 6860472cdf3aec1258704fcdf1d610dc CHILD 4724998517bb9ed7d6f9ebf06482dccc
+PARENT 4724998517bb9ed7d6f9ebf06482dccc CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 65cc6031708d5f8e7291a6e6ddfba9aa CHILD 50467e29de0e87b4dc8eb9e1231b3aa6
+PARENT 50467e29de0e87b4dc8eb9e1231b3aa6 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 9c0971d9693e40d6ae21fd8e2fa4b357 CHILD 66d218a659a49de8c90a5e3d03052858
+PARENT 66d218a659a49de8c90a5e3d03052858 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 91e3142faaf4108e21ce2e943283d615 CHILD e949b2fa00228d109107f3249b57b16f
+PARENT e949b2fa00228d109107f3249b57b16f CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT aec5419257c597cfe5431d6dd248c9fc CHILD a697951e74b4c460c1b45e29e6614217
+PARENT a697951e74b4c460c1b45e29e6614217 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 00863806e13d9ff345e0f7f4beba55e1 CHILD 2e21901ce45d910b33d164663973a5ab
+PARENT 2e21901ce45d910b33d164663973a5ab CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT c7512b2f4d3fdb7e218135644dbd8db6 CHILD a181beb6af151c38a52a22e7f52d0dae
+PARENT a181beb6af151c38a52a22e7f52d0dae CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT ca0d25ff905b05e5dbb7aabe874d577c CHILD 696b92e1a62e1942f4d71cd2b7201856
+PARENT 696b92e1a62e1942f4d71cd2b7201856 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 56ee11dda076161752804ce019eafab2 CHILD ca8370abd4f6a125c5ec362d88c2cc66
+PARENT ca8370abd4f6a125c5ec362d88c2cc66 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 648ef878e3dde378b6fa3bf9457acf40 CHILD fcca991778ec2821290d2ebc5fba6c77
+PARENT fcca991778ec2821290d2ebc5fba6c77 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT a1580a88012f4cacc1ee22afc541d826 CHILD fd524473c9ee63d3e7218a1a393c5b9d
+PARENT fd524473c9ee63d3e7218a1a393c5b9d CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 52dba0c9065e128596aafc3bf159ad5f CHILD 41fd55ab72428cb53aad46204c35fec6
+PARENT 41fd55ab72428cb53aad46204c35fec6 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 75619fd3825dd0c9f8101b7dd6f33086 CHILD 3c99de3f93ebd670ec49d84621e56047
+PARENT 3c99de3f93ebd670ec49d84621e56047 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT f395da9807564700c09201cce08a2ee8 CHILD 85b528b51b54255b686f7541ae7654a5
+PARENT 85b528b51b54255b686f7541ae7654a5 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT 33a6f7ada4c78d22010f2273bca13a71 CHILD 9182f3cac12f8e6ad32d3a733fb3b7c1
+PARENT 9182f3cac12f8e6ad32d3a733fb3b7c1 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT e3d206bb2f7bdcbc1e402163109ad528 CHILD ba5aefdfb2555bc5c7de380bde57b375
+PARENT ba5aefdfb2555bc5c7de380bde57b375 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT a47c4ca6ba853e7994ad979d7426b293 CHILD db2eef73bb1a471228c7b5d22bbfe6ee
+PARENT db2eef73bb1a471228c7b5d22bbfe6ee CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT dfd50f9bfe88da5881fed7c712013856 CHILD 234c5a925bb0c25485c6f8b05632c545
+PARENT 234c5a925bb0c25485c6f8b05632c545 CHILD 539a1a6b2a8403bbc0e954830dfc6a7d
+PARENT dd2eda5a30bc89fdc5b50c4fb77f1268 CHILD 3156887663e8be8e04cbe9a294ac9cac
+PARENT 3156887663e8be8e04cbe9a294ac9cac CHILD 539a1a6b2a8403bbc0e954830dfc6a7d

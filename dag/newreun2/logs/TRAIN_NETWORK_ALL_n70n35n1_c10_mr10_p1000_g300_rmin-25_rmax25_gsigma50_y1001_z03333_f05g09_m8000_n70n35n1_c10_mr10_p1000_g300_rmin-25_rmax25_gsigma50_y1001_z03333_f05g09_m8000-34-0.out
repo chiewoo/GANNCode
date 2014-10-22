@@ -1,0 +1,7 @@
+Creating network.
+The layer structure is following:
+[70, 35, 1]
+Setting newtork parameters
+Getting training data : ALL_S6_959126400_hveto_channels_signif_dt_set_17_training.pat
+Setting GA training parameters
+Start running GA

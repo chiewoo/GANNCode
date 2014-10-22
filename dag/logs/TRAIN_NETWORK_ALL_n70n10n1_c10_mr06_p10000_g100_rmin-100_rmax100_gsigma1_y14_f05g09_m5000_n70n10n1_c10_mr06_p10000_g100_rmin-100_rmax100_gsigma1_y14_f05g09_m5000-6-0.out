@@ -1,0 +1,13 @@
+Creating network.
+The layer structure is following:
+[70, 10, 1]
+Setting newtork parameters
+Getting training data : ALL_S6_959126400_hveto_channels_signif_dt_set_3_training.pat
+Setting GA training parameters
+Start running GA
+Gen. 0 (0.00%): Max/Min/Avg Fitness(Raw) [17.89(38.21)/13.13(1.03)/14.91(14.91)]
+Gen. 1 (1.00%): Max/Min/Avg Fitness(Raw) [45.81(39.01)/22.06(36.42)/38.17(38.17)]
+Gen. 2 (2.00%): Max/Min/Avg Fitness(Raw) [46.60(39.32)/0.00(35.33)/38.84(38.83)]
+Gen. 3 (3.00%): Max/Min/Avg Fitness(Raw) [46.86(39.50)/0.00(35.64)/39.06(39.05)]
+Gen. 4 (4.00%): Max/Min/Avg Fitness(Raw) [47.06(39.69)/0.00(35.77)/39.22(39.22)]
+Gen. 5 (5.00%):
